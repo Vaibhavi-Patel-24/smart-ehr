@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import AdminNavbar from './components/AdminNavbar'
 import LoginAdmin from './pages/admin/Login.admin'
+import HomepageAdmin from './pages/admin/Homepage.admin'
 
 function LayoutWrapper({ children }) {
   const location = useLocation()
@@ -29,7 +30,8 @@ function App() {
       <LayoutWrapper>
         <Routes>
           <Route path="/" element={<LoginCommon />} />
-          <Route path="/admin/*" element={<LoginAdmin />} /> {/* Placeholder for admin routes */}
+          <Route path="/admin/login" element={<LoginAdmin />}/>
+          <Route path="/admin/home" element={<HomepageAdmin />}/>
         </Routes>
       </LayoutWrapper>
     </Router>
