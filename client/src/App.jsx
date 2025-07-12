@@ -3,7 +3,7 @@ import LoginCommon from './pages/Login.common'
 import './App.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import AdminNavbar from './components/AdminNavbar'
+import AdminNavbar from './components/admin/Navbar.admin'
 import LoginAdmin from './pages/admin/Login.admin'
 
 function LayoutWrapper({ children }) {
