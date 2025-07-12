@@ -2,7 +2,7 @@ import React from 'react'
 
 function LoginCommon() {
   return (
-    <div>
+    <div class='bg-[]'>
       
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Navbar() {
+function AdminNavbar() {
   return (
     <div className='bg-black/20 px-6 py-3 sticky z-50 text-white top-0 flex justify-between'>
       {/* Text on the left */}
@@ -18,4 +18,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default AdminNavbar
