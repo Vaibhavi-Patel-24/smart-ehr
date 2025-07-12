@@ -1,14 +1,16 @@
 import LoginCommon from './pages/Login.common'
 import './App.css'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
+      <Navbar/>
       <LoginCommon/>
-    <div className="min-h-screen bg-base-200 flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-bold text-red-500">143</h1>
-    </div>
+      
+      <Footer/>
     </>
   )
 }
