@@ -15,6 +15,7 @@ import Updatepatient from './pages/admin/Updatepatient.admin';
 import Removepatient from './pages/admin/Removepatient.admin';
 import Removemedical from './pages/admin/Removemedical.admin';
 import Ehrmedical from './pages/medical/Ehr.medical';
+import HomepagePatient from './pages/patient/Homepage.patient';
 
 function LayoutWrapper({ children }) {
   const location = useLocation()
@@ -52,9 +53,9 @@ function App() {
           <Route path="/admin/updatemedical" element={<Updatemedical/>}/>
           <Route path="/admin/removepatient" element={<Removepatient/>}/>
           <Route path="/admin/removemedical" element={<Removemedical/>}/>
-
           <Route path="/medical/home" element={<Homepagemedical />}/>
           <Route path="/medical/ehr" element={<Ehrmedical />}/>
+          <Route path="/patient/home" element={<HomepagePatient />}/>
         </Routes>
       </LayoutWrapper>
     </Router>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Homepagemedical() {
   return (
-    <div className="relative h-screen w-full flex justify-center items-center overflow-hidden">
+      <div className="relative h-screen w-full flex justify-center items-center overflow-hidden">
       {/* Background Images */}
       <img
         src="/drimage.svg"
