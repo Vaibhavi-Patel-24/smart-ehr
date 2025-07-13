@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom'
+import React, { useState } from 'react';
 import LoginCommon from './pages/Login.common'
 import './App.css'
 import Navbar from './components/Navbar'
@@ -8,10 +9,15 @@ import LoginAdmin from './pages/admin/Login.admin'
 import HomepageAdmin from './pages/admin/Homepage.admin'
 import Addpatient from './pages/admin/Addpatient.admin'
 import Addmedical from './pages/admin/Addmedical.admin'
+import Homepagemedical from './components/medical/Homepage.medical';
 
 function LayoutWrapper({ children }) {
   const location = useLocation()
-
+    const [isLoggedIn, setIsLoggedIn] = useState(true);
+      const handleLogout = () => {
+    // Your logout logic here
+        setIsLoggedIn(false);
+      };
   // Check if the current path starts with "/admin"
   const isAdminRoute = location.pathname.startsWith('/admin')
   // const isMedicalRoute = location.pathname.startsWith('/medical')
@@ -20,7 +26,7 @@ function LayoutWrapper({ children }) {
     <>
       {isAdminRoute ? <AdminNavbar /> : <Navbar />}
       {children}
-      {!isAdminRoute && <Footer />}
+      {!isAdminRoute && <Footer isLoggedIn={isLoggedIn} onLogout={handleLogout} />}
     </>
   )
 }
@@ -37,6 +43,7 @@ function App() {
           <Route path="/admin/home" element={<HomepageAdmin />}/>
           <Route path="/admin/addpatient" element={<Addpatient />}/>
           <Route path="/admin/addmedical" element={<Addmedical />}/>
+          <Route path="/medical/home" element={<Homepagemedical />}/>
         </Routes>
       </LayoutWrapper>
     </Router>
