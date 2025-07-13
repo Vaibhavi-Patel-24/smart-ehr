@@ -14,6 +14,7 @@ import Updatemedical from './pages/admin/Updatemedical.admin';
 import Updatepatient from './pages/admin/Updatepatient.admin';
 import Removepatient from './pages/admin/Removepatient.admin';
 import Removemedical from './pages/admin/Removemedical.admin';
+import Ehrmedical from './pages/medical/Ehr.medical';
 
 function LayoutWrapper({ children }) {
   const location = useLocation()
@@ -24,13 +25,13 @@ function LayoutWrapper({ children }) {
       };
   // Check if the current path starts with "/admin"
   const isAdminRoute = location.pathname.startsWith('/admin')
-  // const isMedicalRoute = location.pathname.startsWith('/medical')
+  const isMedicalRoute = location.pathname.startsWith('/medical')
 
   return (
     <>
-      {isAdminRoute ? <AdminNavbar /> : <Navbar />}
+      {isAdminRoute ? <AdminNavbar /> : isMedicalRoute ? <Navbar pos={'static'}/> : <Navbar pos={'fixed'}/> }
       {children}
-      {!isAdminRoute && <Footer isLoggedIn={isLoggedIn} onLogout={handleLogout} />}
+      {!isAdminRoute && isMedicalRoute ? <Footer pos={'static'} isLoggedIn={isLoggedIn} onLogout={handleLogout} /> :<Footer pos={'fixed'} isLoggedIn={isLoggedIn} onLogout={handleLogout} />}
     </>
   )
 }
@@ -53,6 +54,7 @@ function App() {
           <Route path="/admin/removemedical" element={<Removemedical/>}/>
 
           <Route path="/medical/home" element={<Homepagemedical />}/>
+          <Route path="/medical/ehr" element={<Ehrmedical />}/>
         </Routes>
       </LayoutWrapper>
     </Router>
