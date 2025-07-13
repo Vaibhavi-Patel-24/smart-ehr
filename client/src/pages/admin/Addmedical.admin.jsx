@@ -1,11 +1,12 @@
 import React from 'react'
 import doctor from '../../assets/doctor.jpg'
 import LeftPanel from '../../components/admin/LeftPanel.admin'
-import InputCard from '../../components/admin/InputCard.patient.admin'
-
-const Addpatient= () => {
+import InputCardMedical
+ from '../../components/admin/InputCard.medical.admin'
+const Addmedical = () => {
   return (
-    <div className="fixed inset-0 overflow-hidden">
+    <>
+      <div className="fixed inset-0 overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${doctor})` }}
@@ -22,14 +23,15 @@ const Addpatient= () => {
     
         <div className='w-full flex items-center flex-col gap-4 pt-25'>
         <div className="w-full px-36">
-            <p className="text-white font-semibold">New Patient</p>
+            <p className="text-white font-semibold">New Medical</p>
         </div>            
-        <InputCard/> 
+        <InputCardMedical/> 
         </div>
 
      </div>
     </div>
+    </>
   )
 }
 
-export default Addpatient
+export default Addmedical
