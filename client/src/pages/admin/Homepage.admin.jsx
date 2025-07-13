@@ -5,7 +5,7 @@ import user_heart from '../../assets/user_heart.png'
 import user from '../../assets/user.png'
 import right_arrow from '../../assets/right_arrow.png'
 import { useState } from 'react';
-
+import { Link } from 'react-router-dom'
 
 function HomepageAdmin() {
 
@@ -81,9 +81,15 @@ function HomepageAdmin() {
                 <p className="font-bold text-xl text-center">Manage Patient</p>
                 <div className="flex flex-col justify-center items-center pr-4 pl-4 pt-4 pb-4">
                   <div className="flex flex-col gap-3">
-                    <p className="font-bold text-[16px] text-[rgb(0,149,218)]">Add Patient</p>
-                    <p className="font-bold text-[16px] text-[rgb(0,149,218)]">Manage Patient</p>
-                    <p className="font-bold text-[16px] text-[rgb(0,149,218)]">Remove Patient</p>
+                    <Link to='/admin/addpatient'>                    
+                        <p className="font-bold text-[16px] text-[rgb(0,149,218)]">Add Patient</p>
+                    </Link>
+                    <Link to='/admin/updatepatient'>
+                        <p className="font-bold text-[16px] text-[rgb(0,149,218)]">Manage Patient</p>
+                    </Link>
+                    <Link to='/admin/removepatient'>
+                        <p className="font-bold text-[16px] text-[rgb(0,149,218)]">Remove Patient</p>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -130,9 +136,15 @@ function HomepageAdmin() {
                 <p className="font-bold text-xl text-center">Manage Medical</p>
                 <div className="flex flex-col justify-center items-center pr-4 pl-4 pt-4 pb-4">
                   <div className="flex flex-col gap-3">
+                  <Link to='/admin/addmedical'>                    
                     <p className="font-bold text-[16px] text-[rgb(0,149,218)]">Add Medical</p>
+                  </Link>
+                  <Link to='/admin/updatemedical'>                    
                     <p className="font-bold text-[16px] text-[rgb(0,149,218)]">Manage Medical</p>
+                  </Link>
+                  <Link to='/admin/removemedical'>                    
                     <p className="font-bold text-[16px] text-[rgb(0,149,218)]">Remove Medical</p>
+                  </Link>
                   </div>
                 </div>
               </div>
