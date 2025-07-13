@@ -6,7 +6,6 @@ import Footer from './components/Footer'
 import AdminNavbar from './components/admin/Navbar.admin'
 import LoginAdmin from './pages/admin/Login.admin'
 import HomepageAdmin from './pages/admin/Homepage.admin'
-import Homepagemedical from './components/medical/Homepage.medical'
 
 function LayoutWrapper({ children }) {
   const location = useLocation()
@@ -34,8 +33,6 @@ function App() {
           <Route path="/" element={<LoginCommon />} />
           <Route path="/admin/login" element={<LoginAdmin />}/>
           <Route path="/admin/home" element={<HomepageAdmin />}/>
-          <Route path="/medical/home" element={<Homepagemedical />}/>
-
         </Routes>
       </LayoutWrapper>
     </Router>
