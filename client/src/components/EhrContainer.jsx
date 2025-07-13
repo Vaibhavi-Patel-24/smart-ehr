@@ -5,7 +5,7 @@ function EhrContainer({ data }) {
 
   return (
     <div className="border border-[#00B2FF] rounded-md p-4 w-full max-w-[600px] mx-auto bg-white text-[#444] font-inter text-sm">
-      
+      <h2 className="text-xl font-semibold mb-2 text-[#00B2FF]">Electronic Health Record</h2>
       {/* Patient ID */}
       <input
         type="text"
