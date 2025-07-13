@@ -1,5 +1,5 @@
 import React from 'react'
-import LeftPanel from '../../components/LeftPanel'
+import LeftPanel from '../../components/admin/LeftPanel'
 
 function HomepageAdmin() {
   return (
