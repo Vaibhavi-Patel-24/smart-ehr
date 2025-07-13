@@ -9,7 +9,19 @@ function Ehrmedical() {
       {/* Main components */}
       <EhrContainer data={data} />
       <Analysismedical />
+     <div className="flex flex-col sm:flex-row gap-3 w-full sm:justify-center">
+        <button className="btn btn-outline text-[#0095DA] outline-[#69A4DC] rounded-[15px] text-sm sm:text-base 
+                            w-full sm:w-[200px] h-[44px] sm:h-[48px]">
+        Exit
+        </button>
+        <button className="btn btn-outline text-[#0095DA] outline-[#69A4DC] rounded-[15px] text-sm sm:text-base 
+                            w-full sm:w-[200px] h-[44px] sm:h-[48px]">
+        Update EHR
+        </button>
+        </div>
 
+
+ 
       {/* Decorative Background SVGs */}
       <img
         src="/nurseimage2.svg"
