@@ -15,7 +15,7 @@ const Addpatient= () => {
 
       <div className="absolute inset-0 flex">
         
-        <div className="hidden lg:block w-60 h-full overflow-hidden">
+        <div className="lg:w-60 lg:h-full lg:overflow-hidden">
           <LeftPanel />
         </div>
     
