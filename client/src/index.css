@@ -30,3 +30,11 @@
 .rotate-y-180 {
   transform: rotateY(180deg);
 }
+
+@layer base {
+  @media (max-width: 768px) {
+    html {
+      font-size: 0.9rem;
+    }
+  }
+}

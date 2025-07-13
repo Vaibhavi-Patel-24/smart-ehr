@@ -8,9 +8,9 @@ const inputGroups = [
 const InputCardMedical = () => {
   return (
     <>
-      <div className="bg-[rgb(182,177,177)] w-[750px] h-[200px] rounded-xl opacity-80 flex flex-col justify-center items-center px-3 gap-4 ">
+      <div className="bg-[rgb(182,177,177)] w-2/3 h-2/4 lg:w-2/3 lg:h-[200px] rounded-xl opacity-80 flex flex-col justify-center items-center gap-4 overflow-y-scroll pl-3 pr-3 lg:pl-0 lg:pr-0 ">
       {inputGroups.map((group, idx) => (
-        <div className="flex flex-row gap-4" key={idx}>
+        <div className="flex flex-col lg:flex-row gap-4" key={idx}>
           {group.map((placeholder, index) => (
             <input
               key={index}

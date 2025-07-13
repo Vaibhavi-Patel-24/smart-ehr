@@ -3,7 +3,7 @@ import doctor_stethoscope from '../../assets/doctor_stethoscope.png'
 import patient_profile from '../../assets/patient_profile.png'
 const LeftPanel = () => {
   return (
-    <div>
+    <div className='hidden lg:block'>
     <div className="w-50 h-screen bg-[rgb(217,217,217)] text-white p-6 fixed top-0 left-0 shadow-lg space-y-6">
       <ul className="space-y-3 pt-28">
         <li className="flex items-center gap-2 cursor-pointer text-black font-bold text-xl">

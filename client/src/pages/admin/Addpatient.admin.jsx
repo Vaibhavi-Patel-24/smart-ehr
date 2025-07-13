@@ -15,13 +15,13 @@ const Addpatient= () => {
 
       <div className="absolute inset-0 flex">
         
-        <div className="w-60 h-full overflow-hidden">
+        <div className="hidden lg:block w-60 h-full overflow-hidden">
           <LeftPanel />
         </div>
     
     
         <div className='w-full flex items-center flex-col gap-4 pt-25'>
-        <div className="w-full px-36">
+        <div className="w-full px-4 md:px-4 lg:px-36">
             <p className="text-white font-semibold">New Patient</p>
         </div>            
         <InputCard/> 

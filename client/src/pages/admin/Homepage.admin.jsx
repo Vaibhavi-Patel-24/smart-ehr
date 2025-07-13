@@ -16,11 +16,11 @@ function HomepageAdmin() {
       <div className="absolute inset-0 bg-black opacity-40" />
 
       <div className="absolute inset-0 flex">
-        <div className="w-60 h-full overflow-hidden">
+        <div className="hidden lg:block w-60 h-full overflow-hidden">
           <LeftPanel />
         </div>
 
-        <div className="w-full flex items-center justify-center flex-row gap-20">
+        <div className="w-full flex items-center justify-center flex-col md:flex-row md:gap-20 gap-10 md:pt-0 pt-18">
          
           {/* <div className='bg-[rgb(182,177,177)] w-[200px] h-[200px] rounded-xl flex flex-col pt-2 pb-2 gap-2 opacity-80'>
             <p className='font-bold text-xl text-center'>Manage Patient</p>
