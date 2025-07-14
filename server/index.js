@@ -29,7 +29,7 @@ try{
 } 
 catch{console.log(`server failed to start`)}
 
-USERNAME - process.env.DB_USERNAME
-PASSWORD = process.env.DB_PASSWD
+const USERNAME = process.env.DB_USERNAME
+const PASSWORD = process.env.DB_PASSWORD
 
 connection(USERNAME,PASSWORD)
