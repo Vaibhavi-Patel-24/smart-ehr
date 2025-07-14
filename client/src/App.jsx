@@ -27,12 +27,13 @@ function LayoutWrapper({ children }) {
   // Check if the current path starts with "/admin"
   const isAdminRoute = location.pathname.startsWith('/admin')
   const isMedicalRoute = location.pathname.startsWith('/medical')
+  const isPatientlRoute = location.pathname.startsWith('/patient')
 
   return (
     <>
-      {isAdminRoute ? <AdminNavbar /> : isMedicalRoute ? <Navbar pos={'static'}/> : <Navbar pos={'fixed'}/> }
+      {isAdminRoute ? <AdminNavbar /> : isMedicalRoute | isPatientlRoute ? <Navbar pos={'static'}/> : <Navbar pos={'fixed'}/> }
       {children}
-      {!isAdminRoute && isMedicalRoute ? <Footer pos={'static'} isLoggedIn={isLoggedIn} onLogout={handleLogout} /> :<Footer pos={'fixed'} isLoggedIn={isLoggedIn} onLogout={handleLogout} />}
+      {!isAdminRoute && isMedicalRoute || isPatientlRoute ? <Footer pos={'static'} isLoggedIn={isLoggedIn} onLogout={handleLogout} /> :<Footer pos={'fixed'} isLoggedIn={isLoggedIn} onLogout={handleLogout} />}
     </>
   )
 }

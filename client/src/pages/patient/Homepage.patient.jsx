@@ -9,11 +9,10 @@ const HomepagePatient = () => {
     <>
 
     <div className="min-h-screen bg-white">
-      {/* Use Navbar as-is */}
-      <Navbar pos="fixed" />
+
 
       {/* Push content down below fixed nav */}
-      <div className="pt-20 px-4 flex flex-col items-center text-center space-y-6">
+      <div className="pt-10 pb-10 px-4 flex flex-col items-center text-center space-y-6">
         <p className="text-md font-semibold text-[rgb(255,143,154)] max-w-md pt-6">
           Don’t wait. If this is a health crisis, tap the SOS button now
         </p>
