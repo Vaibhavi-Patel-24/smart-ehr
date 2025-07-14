@@ -7,27 +7,41 @@ const medicalSchema = mongoose.Schema({
     },
     name:{
         type:String,
-        require:true
+        required:true
     },
-    brachName:{
+    branchName:{
         type:String,
-        require:true
+        required:true
     },
     address:{
         type:String,
-        require:true
+        required:true
     },
     contact:{
         type:String,
-        require:true
+        required:true,
+        validate: {
+        validator: function (v) {
+        return /^[0-9]{10}$/.test(v); // Only 10-digit numbers
+        },
+        message: props => `${props.value} is not a valid 10-digit contact number!`,
+        },
     },
     email:{
         type:String,
-        require:true
+        required:true,
+        unique: true, // No duplicate emails
+        lowercase: true,
+        validate: {
+        validator: function (v) {
+            return /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(v); // Basic email regex
+        },
+        message: props => `${props.value} is not a valid email!`,
+        },
     },
     password:{
         type:String,
-        require:true
+        required:true
     }
 },{timestamps: true});
 
