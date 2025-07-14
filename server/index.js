@@ -1,8 +1,9 @@
 import express from 'express'
-import router from './routes/route.js';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv'
 import cors from'cors'
+import router from './routes/route.js';
+import connection from './db/db.js';
 
 dotenv.config()
 
@@ -27,3 +28,8 @@ try{
     console.log(`server running on port ${PORT} successfully`)})
 } 
 catch{console.log(`server failed to start`)}
+
+USERNAME - process.env.DB_USERNAME
+PASSWORD = process.env.DB_PASSWD
+
+connection(USERNAME,PASSWORD)
