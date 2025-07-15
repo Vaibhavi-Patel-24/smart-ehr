@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import bcrypt from "bcryptjs";
+import bcrypt from "bcrypt";
 import Patient from "../models/patient.js";
 import jwt from 'jsonwebtoken';
 import dotenv from "dotenv";

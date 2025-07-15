@@ -3,7 +3,7 @@ import axios from "axios";
 import {
   API_NOTIFICATION_MESSAGES,
   SERVICE_URLS,
-} from "../components/constants/config.js";
+} from "../constants/config.js";
 
 const API_URL = "http://localhost:8000";
 
@@ -88,20 +88,28 @@ for (const [key, value] of Object.entries(SERVICE_URLS)) {
     showDownloadProgress = () => {}
   ) => {
     try {
+      // 🔁 Replace :params in URL dynamically based on body
       let url = value.url;
-      if (value.method === "PUT" || value.method === "DELETE") {
-        console.log(body);
-        if (!body.id) {
-          throw new Error("ID is required for update/delete operations.");
-        }
-        url = value.url.replace(":id", body.id); // Ensure proper URL formatting
+      const paramMatches = url.match(/:\w+/g); // e.g., [":id", ":patientId"]
+
+      if (paramMatches) {
+        paramMatches.forEach((param) => {
+          const key = param.substring(1); // remove ":" to get "id" or "patientId"
+          if (body[key]) {
+            url = url.replace(param, body[key]);
+          } else {
+            throw new Error(`Missing required URL param: ${key}`);
+          }
+        });
       }
 
       const config = {
         method: value.method,
         url: url,
         data:
-          value.method === "GET" ? body : value.method === "DELETE" ? {} : body,
+          value.method === "GET" || value.method === "DELETE"
+            ? undefined
+            : body,
         headers: {
           "Content-Type":
             value.method === "POST" && body instanceof FormData
