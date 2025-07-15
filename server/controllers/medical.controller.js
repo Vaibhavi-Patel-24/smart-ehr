@@ -3,14 +3,24 @@ import bcrypt from 'bcrypt';
 
 
 export const createMedical = async (req, res) => {
-  const { medicalId, name, branchName, address, contact, email, password } = req.body;
-  console.log('this is addmedical')
+  const { name, branchName, address, contact, email, password } = req.body;
+
   try {
-    const exists = await Medical.findOne({ medicalId });  
+    
+     const exists = await Medical.findOne({ email });
     if (exists) {
       return res.status(400).json({ message: 'Medical already exists' });
     }
 
+    const lastMedical = await Medical.find().sort({ medicalId: -1 }).limit(1);
+    const medicalId = lastMedical.length > 0
+    ? lastMedical[0].medicalId + 1
+    : 1;
+
+
+    console.log("medicalId:",medicalId)
+
+   
     // 🔐 Hash the password before saving
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
