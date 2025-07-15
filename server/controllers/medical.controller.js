@@ -4,9 +4,9 @@ import bcrypt from 'bcrypt';
 
 export const createMedical = async (req, res) => {
   const { medicalId, name, branchName, address, contact, email, password } = req.body;
-
+  console.log('this is addmedical')
   try {
-    const exists = await Medical.findOne({ medicalId });
+    const exists = await Medical.findOne({ medicalId });  
     if (exists) {
       return res.status(400).json({ message: 'Medical already exists' });
     }

@@ -1,5 +1,6 @@
 import express from 'express';
 import { createMedical,getAllMedicals,getMedicalById,deleteMedical,updateMedical } from '../controllers/medical.controller.js';
+import { addPatient, getAllPatients } from '../controllers/patient.controller.js';
 
 // import all the controllers here from controller folder
 
@@ -10,7 +11,8 @@ router.get('/medical/:id', getMedicalById);
 router.delete('/medical/:id', deleteMedical);
 router.put('/medical/:id', updateMedical); // ← new route here
 
-
+router.post('/patient/addpatient', addPatient)
+router.get('/patient/allpatients',getAllPatients)
 // place all routes(endpoints) here with methods like PUT, GET etc..
 
 
