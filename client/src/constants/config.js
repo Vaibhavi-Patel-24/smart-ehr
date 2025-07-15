@@ -1,8 +1,10 @@
 export const SERVICE_URLS={
     fetchAllEhr:{ url:'/patient/allpatients', method:'GET'},
     fetchEhr:{ url:`/patient/:id`, method:'GET'},
-  fetchByPatientId: { url: '/patient/by-patientid/:patientId', method: 'GET' }
-
+    fetchByPatientId: { url: '/patient/by-patientid/:patientId', method: 'GET' },
+    loginPatient: {url: '/login/patient',method: 'POST',},
+    loginMedical: {url: '/login/medical',method: 'POST',},
+    loginAdmin:{url: '/login/admin',method: 'POST'}
 }
 
 
