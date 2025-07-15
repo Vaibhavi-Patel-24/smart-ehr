@@ -17,7 +17,6 @@ export const createMedical = async (req, res) => {
     ? lastMedical[0].medicalId + 1
     : 1;
 
-
     console.log("medicalId:",medicalId)
 
    
