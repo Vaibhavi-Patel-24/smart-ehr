@@ -1,6 +1,5 @@
 import express from 'express';
 import { createMedical,getAllMedicals,getMedicalById,deleteMedical,updateMedical } from '../controllers/medical.controller.js';
-import { addPatient, getAllPatients } from '../controllers/patient.controller.js';
 import { loginPatient } from '../controllers/login.patient.controller.js';
 import { loginMedical } from '../controllers/login.medical.controller.js';
 import { loginAdmin } from '../controllers/login.admin.controller.js';
