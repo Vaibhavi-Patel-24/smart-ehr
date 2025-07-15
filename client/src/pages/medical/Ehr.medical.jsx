@@ -6,7 +6,7 @@ import { API } from '../../service/api';
 
 function Ehrmedical() {
   const [ehr, setEhr] = useState({});
-  const patientId = 'PAT1810556061'; // manually set for testing
+  const patientId = 'PAT5469919140'; // manually set for testing
 
   const fetchEhr = async () => {
     try {

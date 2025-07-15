@@ -22,10 +22,16 @@ function EhrContainer({ data = {} }) {
     smoker = false,
     vitals = [],
     symptoms = [],
-    diagnoses = {}
+    diagnoses = {},
+    admission = {},
+    medications = [],
+    procedures = [],
+    notes = [],
+    contact = 'N/A',
+    email = 'N/A',
+    emergencyContact = []
   } = data;
 
-  // Extract vitals from array
   const bp = vitals?.find(v => v.type === 'BP')?.value || '';
   const hr = vitals?.find(v => v.type === 'HR')?.value || '';
 
@@ -36,7 +42,6 @@ function EhrContainer({ data = {} }) {
     <div className="border border-[#00B2FF] rounded-md p-4 w-full max-w-[600px] mx-auto bg-white text-[#444] font-inter text-sm">
       <h2 className="text-xl font-semibold mb-2 text-[#00B2FF]">Electronic Health Record</h2>
 
-      {/* Patient ID */}
       <input
         type="text"
         readOnly
@@ -44,7 +49,6 @@ function EhrContainer({ data = {} }) {
         className="w-full mb-2 p-2 border border-[#00B2FF] rounded text-center bg-[#F8FDFF]"
       />
 
-      {/* Patient Info */}
       <textarea
         readOnly
         value={`"name": "${fullName}",\n"age": ${age},\n"gender": "${gender}",\n"address": "${address}"`}
@@ -52,23 +56,17 @@ function EhrContainer({ data = {} }) {
         rows={4}
       />
 
-      {/* Blood Group and Smoker */}
       <div className="flex justify-between mb-4">
         <div className="flex gap-2 items-center">
           <span className="font-semibold">Blood Grp:</span>
-          <button className="border border-[#00B2FF] px-3 py-1 rounded bg-[#F8FDFF]">
-            {bloodGroup || 'N/A'}
-          </button>
+          <button className="border border-[#00B2FF] px-3 py-1 rounded bg-[#F8FDFF]">{bloodGroup}</button>
         </div>
         <div className="flex gap-2 items-center">
           <span className="font-semibold">Smoker:</span>
-          <button className="border border-[#00B2FF] px-3 py-1 rounded bg-[#F8FDFF]">
-            {smoker ? 'Yes' : 'No'}
-          </button>
+          <button className="border border-[#00B2FF] px-3 py-1 rounded bg-[#F8FDFF]">{smoker ? 'Yes' : 'No'}</button>
         </div>
       </div>
 
-      {/* Vitals */}
       <div className="mb-4">
         <span className="font-semibold">Vitals:</span>
         <div className="flex gap-4 mt-2">
@@ -91,7 +89,6 @@ function EhrContainer({ data = {} }) {
         </div>
       </div>
 
-      {/* Symptoms */}
       <div className="mb-4">
         <span className="font-semibold">Symptoms:</span>
         <textarea
@@ -102,7 +99,6 @@ function EhrContainer({ data = {} }) {
         />
       </div>
 
-      {/* Diagnoses (Not in DB yet) */}
       <div className="mb-4">
         <span className="font-semibold">Diagnoses:</span>
         <textarea
@@ -113,7 +109,6 @@ function EhrContainer({ data = {} }) {
         />
       </div>
 
-      {/* Show More Toggle */}
       {!showMore && (
         <div className="text-center">
           <p
@@ -131,8 +126,59 @@ function EhrContainer({ data = {} }) {
       )}
 
       {showMore && (
-        <div className="mt-4 border-t pt-4 text-sm text-gray-700">
-          <p>Additional details can be displayed here when expanded.</p>
+        <div className="mt-4 border-t pt-4 text-sm text-gray-700 space-y-3">
+
+          {/* Contact Info */}
+          <div>
+            <p><strong>Contact:</strong> {contact}</p>
+            <p><strong>Email:</strong> {email}</p>
+            <p><strong>Emergency Contacts:</strong> {emergencyContact.join(', ') || 'N/A'}</p>
+          </div>
+
+          {/* Admission Info */}
+          {admission && (
+            <div>
+              <p><strong>Admission ID:</strong> {admission.admission_id || 'N/A'}</p>
+              <p><strong>Location:</strong> {admission.location || 'N/A'}</p>
+              <p><strong>Reason:</strong> {admission.reason || 'N/A'}</p>
+              <p><strong>Time:</strong> {admission.admission_time ? new Date(admission.admission_time).toLocaleString() : 'N/A'}</p>
+            </div>
+          )}
+
+          {/* Medications */}
+          {medications.length > 0 && (
+            <div>
+              <p><strong>Medications:</strong></p>
+              <ul className="list-disc ml-4">
+                {medications.map((med, i) => (
+                  <li key={i}>
+                    {med.name} - {med.dose}, {med.frequency} (from {med.start_date?.slice(0,10)})
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {/* Procedures */}
+          {procedures.length > 0 && (
+            <div>
+              <p><strong>Procedures:</strong> {procedures.join(', ')}</p>
+            </div>
+          )}
+
+          {/* Notes */}
+          {notes.length > 0 && (
+            <div>
+              <p><strong>Notes:</strong></p>
+              <ul className="list-disc ml-4">
+                {notes.map((note, i) => (
+                  <li key={i}>
+                    <strong>{note.author}</strong>: {note.content} ({new Date(note.timestamp).toLocaleString()})
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       )}
     </div>
