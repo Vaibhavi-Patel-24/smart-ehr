@@ -1,5 +1,3 @@
-// Updated patient controller with auto timestamp injection for nested medical fields
-
 import Patient from "../models/patient.js";
 import bcrypt from 'bcrypt';
 
@@ -156,7 +154,6 @@ export const updatePatientbyMedical = async (req, res) => {
 };
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 export const updatePatientSelf = async (req, res) => {
   const { id } = req.params;
   const { contact, emergencyContact, address } = req.body;
