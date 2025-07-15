@@ -19,6 +19,7 @@ function LoginAdmin() {
       if (response.isSuccess) {
         const token = response.data.token;
         localStorage.setItem("token", token);
+        localStorage.setItem("role", "admin"); // 👈 store role
         alert("Admin login successful!");
         navigate("/admin/home"); // change this route to your actual dashboard
       } else {

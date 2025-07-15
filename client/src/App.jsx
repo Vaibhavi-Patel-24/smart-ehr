@@ -17,7 +17,7 @@ import Removemedical from './pages/admin/Removemedical.admin';
 import Ehrmedical from './pages/medical/Ehr.medical';
 import HomepagePatient from './pages/patient/Homepage.patient';
 import Notification from './pages/medical/Notification.admin';
-
+import ProtectedRoute from './components/ProtectedRoute';
 function LayoutWrapper({ children }) {
   const location = useLocation()
     const [isLoggedIn, setIsLoggedIn] = useState(true);
@@ -48,17 +48,17 @@ function App() {
         <Routes>
           <Route path="/" element={<LoginCommon />} />
           <Route path="/admin" element={<LoginAdmin />}/>
-          <Route path="/admin/home" element={<HomepageAdmin />}/>
-          <Route path="/admin/addpatient" element={<Addpatient />}/>
-          <Route path="/admin/addmedical" element={<Addmedical />}/>
-          <Route path="/admin/updatepatient" element={<Updatepatient />}/>
-          <Route path="/admin/updatemedical" element={<Updatemedical/>}/>
-          <Route path="/admin/removepatient" element={<Removepatient/>}/>
-          <Route path="/admin/removemedical" element={<Removemedical/>}/>
-          <Route path="/medical/home" element={<Homepagemedical />}/>
-          <Route path="/medical/ehr" element={<Ehrmedical />}/>
-          <Route path="/patient/home" element={<HomepagePatient />}/>
-          <Route path='/medical/notification' element={<Notification/>}/>
+          <Route path="/admin/home" element={<ProtectedRoute requiredRole="admin"><HomepageAdmin /></ProtectedRoute>}/>
+          <Route path="/admin/addpatient" element={<ProtectedRoute requiredRole="admin"><Addpatient /></ProtectedRoute>}/>
+          <Route path="/admin/addmedical" element={<ProtectedRoute requiredRole="admin"><Addmedical /></ProtectedRoute>}/>
+          <Route path="/admin/updatepatient" element={<ProtectedRoute requiredRole="admin"><Updatepatient /></ProtectedRoute>}/>
+          <Route path="/admin/updatemedical" element={<ProtectedRoute requiredRole="admin"><Updatemedical/></ProtectedRoute>}/>
+          <Route path="/admin/removepatient" element={<ProtectedRoute requiredRole="admin"><Removepatient/></ProtectedRoute>}/>
+          <Route path="/admin/removemedical" element={<ProtectedRoute requiredRole="admin"><Removemedical/></ProtectedRoute>}/>
+          <Route path="/medical/home" element={<ProtectedRoute requiredRole="medical"><Homepagemedical /></ProtectedRoute>}/>
+          <Route path="/medical/ehr" element={<ProtectedRoute requiredRole="medical"><Ehrmedical /></ProtectedRoute>}/>
+          <Route path="/patient/home" element={<ProtectedRoute requiredRole="patient"><HomepagePatient /></ProtectedRoute>}/>
+          <Route path='/medical/notification' element={<ProtectedRoute requiredRole="medical"><Notification/></ProtectedRoute>}/>
         </Routes>
       </LayoutWrapper>
     </Router>

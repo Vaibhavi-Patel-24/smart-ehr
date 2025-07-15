@@ -23,6 +23,7 @@ function LoginCommon() {
       if (response.isSuccess) {
         const token = response.data.token;
         localStorage.setItem("token", token);
+        localStorage.setItem("role", "medical"); // 👈 store role
         alert("Medical login successful!");
         // TODO: redirect to medical dashboard
         navigate('/medical/home');
@@ -41,6 +42,7 @@ function LoginCommon() {
     if (response.isSuccess) {
       const token = response.data.token;
       localStorage.setItem("token", token);
+      localStorage.setItem("role", "patient"); // 👈 store role
       alert("Login successful!");
       // TODO: navigate to dashboard
       navigate("/patient/home"); 
