@@ -2,9 +2,57 @@
 // created at 12/07/25
 // updated at 3:06AM 13/07/2025
 import { useState } from "react"
+import { API } from '../service/api.js';
+import { useNavigate } from 'react-router-dom';
+
+
 
 function LoginCommon() {
   const [role,changeRole] = useState('patient')
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [medicalId, setMedicalId] = useState('');
+  const [medicalPassword, setMedicalPassword] = useState('');
+
+  const navigate = useNavigate();
+
+
+  const handleMedicalLogin = async () => {
+    try {
+      const response = await API.loginMedical({email: medicalId, password: medicalPassword,});     
+      if (response.isSuccess) {
+        const token = response.data.token;
+        localStorage.setItem("token", token);
+        alert("Medical login successful!");
+        // TODO: redirect to medical dashboard
+        navigate('/medical/home');
+      } else {
+        alert("Medical login failed");
+      }
+    } catch (error) {
+      alert("Invalid credentials or server error");
+      console.error(error);
+    }
+  };
+
+  const handlePatientLogin = async () => {
+  try {
+    const response = await API.loginPatient({ email, password });
+    if (response.isSuccess) {
+      const token = response.data.token;
+      localStorage.setItem("token", token);
+      alert("Login successful!");
+      // TODO: navigate to dashboard
+      navigate("/patient/home"); 
+    } else {
+      alert("Login failed");
+    }
+  } catch (error) {
+    alert("Invalid credentials or server error");
+    console.error(error);
+  }
+};
+
 
   return (
     <div className="flex justify-center items-center h-screen bg-[url('/bglogin.jpg')] bg-cover bg-center bg-no-repeat sm:px-4">
@@ -53,11 +101,15 @@ function LoginCommon() {
         <input
           type="text"
           placeholder="Email Address"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           className="w-full bg-transparent border-b-2 pl-4 border-white placeholder-white/70 text-white py-2 outline-none focus:border-[#FF8F9A] transition duration-300"
         />
         <input
           type="password"
           placeholder="Password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
           className="w-full bg-transparent border-b-2 pl-4 border-white placeholder-white/70 text-white py-2 outline-none focus:border-[#FF8F9A] transition duration-300"
         />
         <div className="flex justify-end text-[12px]">
@@ -65,7 +117,9 @@ function LoginCommon() {
         </div>
       </div>
       <div className="flex-row mt-8 justify-center items-end">
-        <button className="bg-[#539ADC]/90 hover:bg-[#539ADC] text-white border border-white py-2 px-18 rounded-[15px] ">
+        <button  
+        onClick={handlePatientLogin}
+        className="bg-[#539ADC]/90 hover:bg-[#539ADC] text-white border border-white py-2 px-18 rounded-[15px] ">
           Login
         </button>
         <div className="flex justify-center pt-2">
@@ -94,11 +148,15 @@ function LoginCommon() {
         <input
           type="text"
           placeholder="Medical ID"
+          value={medicalId}
+          onChange={(e) => setMedicalId(e.target.value)}
           className="w-full bg-transparent border-b-2 pl-4 border-white placeholder-white/70 text-white py-2 outline-none focus:border-[#FF8F9A] transition duration-300"
         />
         <input
           type="password"
           placeholder="Password"
+          value={medicalPassword}
+          onChange={(e) => setMedicalPassword(e.target.value)}
           className="w-full bg-transparent border-b-2 pl-4 border-white placeholder-white/70 text-white py-2 outline-none focus:border-[#FF8F9A] transition duration-300"
         />
         <div className="flex justify-end text-[12px]">
@@ -106,7 +164,9 @@ function LoginCommon() {
         </div>
       </div>
       <div className="flex-row mt-8 justify-center items-end">
-        <button className="bg-[#539ADC]/90 hover:bg-[#539ADC] text-white border border-white py-2 px-18 rounded-[15px] ">
+        <button 
+        onClick={handleMedicalLogin}
+        className="bg-[#539ADC]/90 hover:bg-[#539ADC] text-white border border-white py-2 px-18 rounded-[15px] ">
           Login
         </button>
         <div className="flex justify-center pt-2">

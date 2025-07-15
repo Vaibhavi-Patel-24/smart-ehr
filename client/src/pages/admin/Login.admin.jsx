@@ -1,6 +1,35 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
+import { API } from '../../service/api.js'
+import { useState } from 'react';
+
 
 function LoginAdmin() {
+  const [adminId, setAdminId] = useState('');
+  const [adminPassword, setAdminPassword] = useState('');
+  const navigate = useNavigate();
+
+    const handleAdminLogin = async () => {
+    try {
+      const response = await API.loginAdmin({
+        email: adminId, // assuming admin uses email as ID
+        password: adminPassword,
+      });
+
+      if (response.isSuccess) {
+        const token = response.data.token;
+        localStorage.setItem("token", token);
+        alert("Admin login successful!");
+        navigate("/admin/home"); // change this route to your actual dashboard
+      } else {
+        alert("Login failed");
+      }
+    } catch (error) {
+      alert("Invalid credentials or server error");
+      console.error(error);
+    }
+  };
+
   return (
     <div className="flex justify-center items-center h-screen bg-[url('/bglogin.jpg')] bg-cover bg-center bg-no-repeat sm:px-4">
       
@@ -42,11 +71,15 @@ function LoginAdmin() {
         <input
           type="text"
           placeholder="Admin ID"
+          value={adminId}
+          onChange={(e) => setAdminId(e.target.value)}
           className="w-full bg-transparent border-b-2 pl-4 border-white placeholder-white/70 text-white py-2 outline-none focus:border-[#FF8F9A] transition duration-300"
         />
         <input
           type="password"
           placeholder="Password"
+          value={adminPassword}
+         onChange={(e) => setAdminPassword(e.target.value)}
           className="w-full bg-transparent border-b-2 pl-4 border-white placeholder-white/70 text-white py-2 outline-none focus:border-[#FF8F9A] transition duration-300"
         />
         <div className="flex justify-end text-[12px]">
@@ -54,7 +87,9 @@ function LoginAdmin() {
         </div>
       </div>
       <div className="flex-row mt-8 justify-center items-end">
-        <button className="bg-[#539ADC]/90 hover:bg-[#539ADC] text-white border border-white py-2 px-18 rounded-[15px] ">
+        <button 
+        onClick={handleAdminLogin}
+        className="bg-[#539ADC]/90 hover:bg-[#539ADC] text-white border border-white py-2 px-18 rounded-[15px] ">
           Login
         </button>
       </div>
