@@ -1,12 +1,19 @@
-import React from 'react';
+import {useEffect} from 'react';
 import EhrContainer from '../../components/EhrContainer';
 import { data } from '../../data/ehr';
 import Analysismedical from '../../components/medical/Analysis.medical';
+import { API } from '../../service/api';
+
+const fetchEhr = () =>{
+  const response = await API.
+}
+
 
 function Ehrmedical() {
   return (
     <div className="relative mt-10 mb-10 flex flex-col gap-8 items-center">
       {/* Main components */}
+      
       <EhrContainer data={data} />
       <Analysismedical />
      <div className="flex flex-col sm:flex-row gap-3 w-full sm:justify-center">
