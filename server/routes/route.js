@@ -3,7 +3,7 @@ import { createMedical,getAllMedicals,getMedicalById,deleteMedical,updateMedical
 import { loginPatient } from '../controllers/login.patient.controller.js';
 import { loginMedical } from '../controllers/login.medical.controller.js';
 import { loginAdmin } from '../controllers/login.admin.controller.js';
-import { addPatient, getAllPatients, getPatientById, getPatientByPatientId, updatePatientbyAdmin, updatePatientbyMedical, updatePatientSelf } from '../controllers/patient.controller.js';
+import { addPatient, getAllPatients, getPatientById, getPatientByPatientId, updatePatientbyAdmin, updatePatientbyMedical, updatePatientSelf ,deletePatient} from '../controllers/patient.controller.js';
 import auth from '../middleware/auth.js';
 // import all the controllers here from controller folder
 
@@ -11,9 +11,10 @@ const router = express.Router();
 router.post('/medical/addmedical',auth,createMedical);
 router.get('/medical/allmedical',auth, getAllMedicals);
 router.get('/medical/:id',auth, getMedicalById);
-router.delete('/medical/:id',auth, deleteMedical);
+router.delete('/medical/deletemedical/:id', deleteMedical);
 router.put('/medical/:id',auth, updateMedical); // ← new route here
 
+router.delete('/patient/deletepatient/:id', deletePatient);
 router.post('/patient/addpatient',auth, addPatient)
 router.get('/patient/allpatients',auth,getAllPatients)
 

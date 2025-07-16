@@ -1,6 +1,24 @@
 import Medical from "../models/medical.js";
 import bcrypt from 'bcrypt';
 
+const generateMedicalId = () => {
+  const prefix = "MED";
+  const timestamp = Date.now().toString().slice(-6);
+  const random = Math.floor(1000 + Math.random() * 9000);
+  return `${prefix}${timestamp}${random}`;
+};
+
+const generateUniqueMedicalId = async () => {
+  let unique = false;
+  let newId = "";
+  while (!unique) {
+    newId = generateMedicalId();
+    const existing = await Medical.findOne({ medicalId: newId });
+    if (!existing) unique = true;
+  }
+  return newId;
+};
+
 
 export const createMedical = async (req, res) => {
   const { name, branchName, address, contact, email, password } = req.body;
@@ -12,10 +30,7 @@ export const createMedical = async (req, res) => {
       return res.status(400).json({ message: 'Medical already exists' });
     }
 
-    const lastMedical = await Medical.find().sort({ medicalId: -1 }).limit(1);
-    const medicalId = lastMedical.length > 0
-    ? lastMedical[0].medicalId + 1
-    : 1;
+    const medicalId = await generateUniqueMedicalId();
 
     console.log("medicalId:",medicalId)
 
@@ -42,9 +57,6 @@ export const createMedical = async (req, res) => {
   }
 };
 
-
-
-
 export const getAllMedicals = async (req, res) => {
   try {
     const medicals = await Medical.find();
@@ -69,7 +81,8 @@ export const getMedicalById = async (req, res) => {
 
 export const deleteMedical = async (req, res) => {
   try {
-    const medical = await Medical.findByIdAndDelete(req.params.id);
+
+    const medical = await Medical.findOneAndDelete({ medicalId: req.params.id });
     if (!medical) return res.status(404).json({ message: 'Medical not found' });
 
     res.status(200).json({ message: 'Medical deleted successfully' });

@@ -249,3 +249,15 @@ export const updatePatientSelf = async (req, res) => {
     });
   }
 };
+
+export const deletePatient = async (req, res) => {
+  try {
+
+    const patient = await Patient.findOneAndDelete({ patientId: req.params.id });
+    if (!patient) return res.status(404).json({ message: 'Patient not found' });
+
+    res.status(200).json({ message: 'Patient deleted successfully' });
+  } catch (error) {
+    res.status(400).json({ message: 'Server error', error: error.message });
+  }
+};

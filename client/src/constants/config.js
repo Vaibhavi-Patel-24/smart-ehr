@@ -7,6 +7,10 @@ export const SERVICE_URLS={
     loginMedical: {url: '/login/medical',method: 'POST',},
     loginAdmin:{url: '/login/admin',method: 'POST'},
     addPatient: { url: '/patient/addpatient', method: 'POST' },
+    addMedical: { url: '/medical/addmedical',method: 'POST'},
+    deleteMedical: {url: '/medical/deletemedical/:id',method: 'DELETE'},
+    deletePatient: {url: '/patient/deletepatient/:id',method: 'DELETE'}
+
 }
 
 

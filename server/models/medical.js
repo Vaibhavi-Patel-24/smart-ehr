@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const medicalSchema = mongoose.Schema({
     medicalId:{
-        type:Number,
+        type:String,
         required:true,
         unique:true
     },
