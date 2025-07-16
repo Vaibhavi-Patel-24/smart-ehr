@@ -56,7 +56,7 @@ function App() {
           <Route path="/admin/removepatient" element={<ProtectedRoute requiredRole="admin"><Removepatient/></ProtectedRoute>}/>
           <Route path="/admin/removemedical" element={<ProtectedRoute requiredRole="admin"><Removemedical/></ProtectedRoute>}/>
           <Route path="/medical/home" element={<ProtectedRoute requiredRole="medical"><Homepagemedical /></ProtectedRoute>}/>
-          <Route path="/medical/ehr" element={<ProtectedRoute requiredRole="medical"><Ehrmedical /></ProtectedRoute>}/>
+<Route path="/medical/ehr/:patientId" element={<ProtectedRoute requiredRole="medical"><Ehrmedical /></ProtectedRoute>} />
           <Route path="/patient/home" element={<ProtectedRoute requiredRole="patient"><HomepagePatient /></ProtectedRoute>}/>
           <Route path='/medical/notification' element={<ProtectedRoute requiredRole="medical"><Notification/></ProtectedRoute>}/>
         </Routes>

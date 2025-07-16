@@ -7,7 +7,7 @@ function Analysismedical() {
                 setShowAnalysis(true);
             };
   return(
-  <div className="border border-[#00B2FF] rounded-md p-4 w-full max-w-[600px] mx-auto bg-white text-[#00B2FF] font-inter text-sm">
+  <div className="border z-1000 border-[#00B2FF] rounded-md p-4 w-full max-w-[600px] mx-auto bg-white text-[#00B2FF] font-inter text-sm">
       
       <h2 className="text-xl font-semibold mb-2">Assistance</h2>
 

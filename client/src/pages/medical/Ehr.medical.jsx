@@ -3,41 +3,84 @@ import EhrContainer from '../../components/EhrContainer';
 import { data } from '../../data/ehr'; // optional fallback
 import Analysismedical from '../../components/medical/Analysis.medical';
 import { API } from '../../service/api';
+import { useNavigate, useParams } from 'react-router-dom';
 
 function Ehrmedical() {
   const [ehr, setEhr] = useState({});
-  const patientId = 'PAT5469919140'; // manually set for testing
+  const [editMode, setEditMode] = useState(false);
+  const { patientId } = useParams();
+  const navigate = useNavigate();
+
+  const handleExit = () => navigate(`/medical/home`);
 
   const fetchEhr = async () => {
     try {
-      console.log({patientId})
-      const response = await API.fetchByPatientId({ patientId }); // ensure this matches API structure
-      console.log("API Response:", response?.data);
+      const response = await API.fetchByPatientId({ patientId });
       setEhr(response?.data);
     } catch (error) {
       console.error('Failed to fetch EHR:', error.response?.data || error.message);
-      setEhr(data); // fallback
+      setEhr(data);
     }
   };
 
   useEffect(() => {
     fetchEhr();
+  }, [patientId]);
+
+const handleSubmit = async (updatedFields) => {
+  try {
+    console.log('✅ Forwarding data to API...');
+    const response = await API.updateByMedical({ patientId, ...updatedFields });
+    setEhr(response.data?.patient);
+    setEditMode(false);
+    alert("EHR updated successfully.");
+  } catch (error) {
+    console.error("Update failed:", error.response?.data || error.message);
+    alert("Failed to update EHR.");
+  }
+};
+
+
+  // Listen for payload from container
+  useEffect(() => {
+    const listener = (e) => {
+      const payload = e.detail;
+      if (payload) {
+        console.log('✅ Payload received from container:', payload);
+        handleSubmit(payload);
+      }
+    };
+
+    window.addEventListener('ehr-submit-payload', listener);
+    return () => window.removeEventListener('ehr-submit-payload', listener);
   }, []);
 
   return (
     <div className="relative mt-10 mb-10 flex flex-col gap-8 items-center">
-      {/* ✅ Use fetched ehr, not static data */}
-      <EhrContainer data={ehr} />
+      <EhrContainer data={ehr} editMode={editMode} setEditMode={setEditMode} />
       <Analysismedical />
 
       <div className="flex flex-col sm:flex-row gap-3 w-full sm:justify-center">
-        <button className="btn btn-outline text-[#0095DA] outline-[#69A4DC] rounded-[15px] text-sm sm:text-base 
-                            w-full sm:w-[200px] h-[44px] sm:h-[48px]">
+        <button
+          className="btn btn-outline text-[#0095DA] outline-[#69A4DC] rounded-[15px] text-sm sm:text-base 
+                     w-full sm:w-[200px] h-[44px] sm:h-[48px]"
+          onClick={handleExit}
+        >
           Exit
         </button>
-        <button className="btn btn-outline text-[#0095DA] outline-[#69A4DC] rounded-[15px] text-sm sm:text-base 
-                            w-full sm:w-[200px] h-[44px] sm:h-[48px]">
-          Update EHR
+        <button
+          onClick={() => {
+            if (editMode) {
+              const submitEvent = new Event("ehr-collect-fields");
+              window.dispatchEvent(submitEvent);
+            } else {
+              setEditMode(true);
+            }
+          }}
+          className="btn btn-outline text-[#0095DA] outline-[#69A4DC] rounded-[15px] text-sm sm:text-base 
+                     w-full sm:w-[200px] h-[44px] sm:h-[48px]"
+        >
+          {editMode ? "Submit" : "Update EHR"}
         </button>
       </div>
 
