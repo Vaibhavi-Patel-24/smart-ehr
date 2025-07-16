@@ -4,7 +4,8 @@ export const SERVICE_URLS={
     fetchByPatientId: { url: '/patient/by-patientid/:patientId', method: 'GET' },
     loginPatient: {url: '/login/patient',method: 'POST',},
     loginMedical: {url: '/login/medical',method: 'POST',},
-    loginAdmin:{url: '/login/admin',method: 'POST'}
+    loginAdmin:{url: '/login/admin',method: 'POST'},
+    addPatient: { url: '/patient/addpatient', method: 'POST' },
 }
 
 
