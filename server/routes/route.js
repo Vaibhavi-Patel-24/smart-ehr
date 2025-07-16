@@ -24,7 +24,7 @@ router.post('/login/admin',loginAdmin)
 router.get('/patient/by-patientid/:patientId', getPatientByPatientId);
 router.get('/patient/:id',auth,getPatientById)
 router.patch('/admin/patients/:id',auth, updatePatientbyAdmin);
-router.patch('/medical/patients/:id',auth, updatePatientbyMedical);
+router.patch('/medical/patients/:patientId', auth, updatePatientbyMedical);
 router.patch('/patients/:id',auth, updatePatientSelf);
 
 
