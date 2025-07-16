@@ -62,17 +62,20 @@ function EhrContainer({ data = {}, editMode }) {
     address = 'N/A',
     bloodGroup = 'N/A',
     smoker = false,
-    vitals = [],
-    symptoms = [],
     diagnoses = {},
     admission = {},
-    medications = [],
-    procedures = [],
-    notes = [],
     contact = 'N/A',
     email = 'N/A',
-    emergencyContact = []
   } = ehrData;
+
+  // ✅ Sanitize arrays explicitly
+  const vitals = Array.isArray(ehrData.vitals) ? ehrData.vitals : [];
+  const symptoms = Array.isArray(ehrData.symptoms) ? ehrData.symptoms : [];
+  const medications = Array.isArray(ehrData.medications) ? ehrData.medications : [];
+  const procedures = Array.isArray(ehrData.procedures) ? ehrData.procedures : [];
+  const notes = Array.isArray(ehrData.notes) ? ehrData.notes : [];
+  const emergencyContact = Array.isArray(ehrData.emergencyContact) ? ehrData.emergencyContact : [];
+
 
   const bp = vitals?.find(v => v.type === 'BP')?.value || '';
   const hr = vitals?.find(v => v.type === 'HR')?.value || '';
