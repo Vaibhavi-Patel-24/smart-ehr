@@ -9,7 +9,11 @@ export const SERVICE_URLS={
     addPatient: { url: '/patient/addpatient', method: 'POST' },
     addMedical: { url: '/medical/addmedical',method: 'POST'},
     deleteMedical: {url: '/medical/deletemedical/:id',method: 'DELETE'},
-    deletePatient: {url: '/patient/deletepatient/:id',method: 'DELETE'}
+    deletePatient: {url: '/patient/deletepatient/:id',method: 'DELETE'},
+    updateMedicalByAdmin: {url: '/admin/medical/:medicalId', method: 'PATCH',},
+    getMedicalById: { url: "/admin/medical/:medicalId", method: "GET"},
+    updatePatientbyAdmin: {url: '/admin/patient/:patientId', method: 'PATCH',},
+   getPatientById: { url: "/admin/patient/:patientId", method: "GET"},
 
 }
 

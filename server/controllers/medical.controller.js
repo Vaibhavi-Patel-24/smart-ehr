@@ -69,14 +69,17 @@ export const getAllMedicals = async (req, res) => {
 
 export const getMedicalById = async (req, res) => {
   try {
-    const medical = await Medical.findById(req.params.id);
+    const { medicalId } = req.params; // ✅ correctly get named param
+    const medical = await Medical.findOne({ medicalId }); // ✅ pass as filter object
+
     if (!medical) return res.status(404).json({ message: 'Medical not found' });
 
-    res.status(200).json(medical);
+    res.status(200).json({ medical }); // ✅ return wrapped in an object for frontend
   } catch (error) {
-    res.status(400).json({ message: 'Server error', error: error.message });
+    res.status(500).json({ message: 'Server error', error: error.message });
   }
 };
+
 
 
 export const deleteMedical = async (req, res) => {
@@ -112,3 +115,39 @@ export const updateMedical = async (req, res) => {
   }
 };
 
+
+export const updateMedicalByAdmin = async (req, res) => {
+  const { medicalId } = req.params;
+  const updates = { ...req.body };
+
+  try {
+    // Prevent changing medicalId
+    delete updates.medicalId;
+
+    // If password is being updated, hash it
+    if (updates.password) {
+      const salt = await bcrypt.genSalt(10);
+      updates.password = await bcrypt.hash(updates.password, salt);
+    }
+
+    const updated = await Medical.findOneAndUpdate(
+      { medicalId },               // 🔍 filter by custom ID
+      { $set: updates },           // ⚙️ only update provided fields
+      { new: true, runValidators: true }
+    );
+
+    if (!updated) {
+      return res.status(404).json({ message: "Medical not found" });
+    }
+
+    res.status(200).json({
+      message: "Medical updated successfully",
+      medical: updated,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "Update failed",
+      error: error.message,
+    });
+  }
+};

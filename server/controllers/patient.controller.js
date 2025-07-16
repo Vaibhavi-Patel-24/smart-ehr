@@ -110,16 +110,19 @@ export const getAllPatients = async (req, res) => {
 
 export const getPatientById = async (req, res) => {
   try {
-    const { patientId } = req.params;
-    const patient = await Patient.findOne({ patientId });
+    const { patientId } = req.params; // ✅ correctly get param
+    const patient = await Patient.findOne({ patientId }); // ✅ search by patientId field
 
-    if (!patient) return res.status(404).json({ message: "Patient not found" });
+    if (!patient) {
+      return res.status(404).json({ message: "Patient not found" });
+    }
 
-    res.status(200).json(patient);
+    res.status(200).json({ patient }); // ✅ wrap in object
   } catch (error) {
-    res.status(400).json({ message: "Server error", error: error.message });
+    res.status(500).json({ message: "Server error", error: error.message });
   }
 };
+
 export const getPatientByPatientId = async (req, res) => {
   try {
     console.log("called by-patientid from frontend");
@@ -136,7 +139,7 @@ export const getPatientByPatientId = async (req, res) => {
 
 // Admin updates all except patientId
 export const updatePatientbyAdmin = async (req, res) => {
-  const { id } = req.params;
+ const { patientId } = req.params;
   const updates = { ...req.body };
 
   try {
@@ -147,29 +150,30 @@ export const updatePatientbyAdmin = async (req, res) => {
       updates.password = await bcrypt.hash(updates.password, salt);
     }
 
-    if (updates.medications)
-      updates.medications = injectTimestamps(updates.medications, "start_date");
-    if (updates.vitals) updates.vitals = injectTimestamps(updates.vitals);
-    if (updates.notes) updates.notes = injectTimestamps(updates.notes);
+    const updated = await Patient.findOneAndUpdate(
+      { patientId },
+      { $set: updates },
+      { new: true, runValidators: true }
+    );
 
-    const updatedPatient = await Patient.findByIdAndUpdate(id, updates, {
-      new: true,
-      runValidators: true,
-    });
-
-    if (!updatedPatient)
+    if (!updated) {
       return res.status(404).json({ message: "Patient not found" });
+    }
 
-    res
-      .status(200)
-      .json({
-        message: "Patient updated successfully",
-        patient: updatedPatient,
-      });
+    res.status(200).json({
+      message: "Patient updated successfully",
+      patient: updated,
+    });
   } catch (error) {
-    res.status(500).json({ message: "Update failed", error: error.message });
+    res.status(500).json({
+      message: "Update failed",
+      error: error.message,
+    });
   }
 };
+
+
+
 
 // Medical role can only update medical-related fields
 export const updatePatientbyMedical = async (req, res) => {
