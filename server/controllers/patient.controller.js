@@ -125,8 +125,8 @@ export const getPatientById = async (req, res) => {
 
 export const getPatientByPatientId = async (req, res) => {
   try {
-    console.log("called by-patientid from frontend");
     const { patientId } = req.params;
+    console.log(`called by-patientid from frontend ${patientId}`);
     const patient = await Patient.findOne({ patientId });
 
     if (!patient) return res.status(404).json({ message: "Patient not found" });
@@ -214,15 +214,21 @@ export const updatePatientbyMedical = async (req, res) => {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 export const updatePatientSelf = async (req, res) => {
-  const { id } = req.params;
-  const { contact, emergencyContact, address } = req.body;
+  const { patientId } = req.params;
+  console.log(`called updatepatientbyself: ${patientId}`)
+  const { contact, emergencyContact, address, email } = req.body;
 
+  console.log(contact)
+  console.log(emergencyContact)
+  console.log(address)
+  console.log(email)
   // Build update object conditionally
   const updates = {};
   if (contact) updates.contact = contact;
   if (address) updates.address = address;
+if (email) updates.email = email;
   if (emergencyContact) updates.emergencyContact = emergencyContact;
-
+  console.log(updates)
   // If no allowed fields provided
   if (Object.keys(updates).length === 0) {
     return res.status(400).json({
@@ -232,8 +238,9 @@ export const updatePatientSelf = async (req, res) => {
   }
 
   try {
-    const updated = await Patient.findByIdAndUpdate(
-      id,
+    console.log('trying to findandupdate')
+    const updated = await Patient.findOneAndUpdate(
+      { patientId: patientId }, // match by custom field
       { $set: updates },
       { new: true, runValidators: true }
     );

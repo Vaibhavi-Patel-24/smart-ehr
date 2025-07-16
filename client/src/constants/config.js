@@ -15,6 +15,7 @@ export const SERVICE_URLS={
     updatePatientbyAdmin: {url: '/admin/patient/:patientId', method: 'PATCH',},
    getPatientById: { url: "/admin/patient/:patientId", method: "GET"},
 
+    updatePatientSelf: { url: '/patients/:patientId', method: 'PATCH' },
 }
 
 

@@ -67,7 +67,7 @@ function LoginCommon() {
             <div>
               <p className="text-white text-[18px] sm:text-[20px] md:text-[22px]">Access your</p>
               <p className="ml-6 text-[#FF8F9A] text-[32px] sm:text-[36px] md:text-[40px] font-semibold">Medical Records</p>
-              <p className="ml-6 text-[16px] sm:text-[18px] text-white font-semibold italic max-w-[500px]">securely and instantly—anytime, anywhere, when it matters most.</p>
+              <p className="ml-6 text-[18px] sm:text-[24px] text-white font-semibold italic max-w-[500px]">securely and instantly—anytime, anywhere, when it matters most.</p>
             </div>
           </div>
         </div>

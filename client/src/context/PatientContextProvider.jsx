@@ -25,6 +25,8 @@ export const PatientProvider = ({ children }) => {
   const clearPatientId = () => {
     setPatientId(null);
     sessionStorage.removeItem("patientId");
+    localStorage.removeItem("token", token);
+    localStorage.removeItem("role", "medical");
   };
 
   return (

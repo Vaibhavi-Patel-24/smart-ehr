@@ -10,6 +10,8 @@ function calculateAge(dob) {
 function EhrContainer({ data = {}, editMode }) {
   const role = localStorage.getItem('role');
   const isMedical = role === 'medical';
+  const isPatient = role === 'patient';
+  const isAdmin = role === 'admin';
 
   const [ehrData, setEhrData] = useState(data);
   const [showMore, setShowMore] = useState(false);
@@ -19,19 +21,41 @@ function EhrContainer({ data = {}, editMode }) {
   }, [data]);
 
   useEffect(() => {
-    const handleCollectFields = (e) => {
-      if (!isMedical || !editMode) return;
+    const handleCollectFields = () => {
+      if (!editMode) return;
 
-      const payload = {
-        vitals: ehrData.vitals,
-        symptoms: ehrData.symptoms,
-        admission: ehrData.admission,
-        procedures: ehrData.procedures,
-        notes: ehrData.notes,
-        medications: ehrData.medications,
-      };
+      let payload = {};
 
-      console.log('[EhrContainer] Submitting fields:', payload);
+      if (isAdmin) {
+        payload = {
+          vitals: ehrData.vitals,
+          symptoms: ehrData.symptoms,
+          admission: ehrData.admission,
+          procedures: ehrData.procedures,
+          notes: ehrData.notes,
+          medications: ehrData.medications,
+          address: ehrData.address,
+          contact: ehrData.contact,
+          emergencyContact: ehrData.emergencyContact,
+          email: ehrData.email,
+        };
+      } else if (isMedical) {
+        payload = {
+          vitals: ehrData.vitals,
+          symptoms: ehrData.symptoms,
+          admission: ehrData.admission,
+          procedures: ehrData.procedures,
+          notes: ehrData.notes,
+          medications: ehrData.medications,
+        };
+      } else if (isPatient) {
+        payload = {
+          address: ehrData.address,
+          contact: ehrData.contact,
+          email: ehrData.email,
+          emergencyContact: ehrData.emergencyContact,
+        };
+      }
 
       const event = new CustomEvent('ehr-submit-payload', { detail: payload });
       window.dispatchEvent(event);
@@ -39,7 +63,7 @@ function EhrContainer({ data = {}, editMode }) {
 
     window.addEventListener('ehr-collect-fields', handleCollectFields);
     return () => window.removeEventListener('ehr-collect-fields', handleCollectFields);
-  }, [ehrData, editMode]);
+  }, [ehrData, editMode, isAdmin, isMedical, isPatient]);
 
   const handleFieldChange = (field, value) => {
     setEhrData(prev => ({ ...prev, [field]: value }));
@@ -59,16 +83,15 @@ function EhrContainer({ data = {}, editMode }) {
     lastName = '',
     dob,
     gender = 'N/A',
-    address = 'N/A',
+    address = '',
     bloodGroup = 'N/A',
     smoker = false,
     diagnoses = {},
     admission = {},
-    contact = 'N/A',
+    contact = '',
     email = 'N/A',
   } = ehrData;
 
-  // ✅ Sanitize arrays explicitly
   const vitals = Array.isArray(ehrData.vitals) ? ehrData.vitals : [];
   const symptoms = Array.isArray(ehrData.symptoms) ? ehrData.symptoms : [];
   const medications = Array.isArray(ehrData.medications) ? ehrData.medications : [];
@@ -76,11 +99,15 @@ function EhrContainer({ data = {}, editMode }) {
   const notes = Array.isArray(ehrData.notes) ? ehrData.notes : [];
   const emergencyContact = Array.isArray(ehrData.emergencyContact) ? ehrData.emergencyContact : [];
 
-
   const bp = vitals?.find(v => v.type === 'BP')?.value || '';
   const hr = vitals?.find(v => v.type === 'HR')?.value || '';
   const fullName = [firstName, middleName, lastName].filter(Boolean).join(' ') || 'N/A';
   const age = calculateAge(dob);
+
+  const canEdit = field =>
+    (isAdmin && field !== 'patientId') ||
+    (isMedical && ['vitals', 'symptoms', 'medications', 'procedures', 'notes', 'admission'].includes(field)) ||
+    (isPatient && ['contact','email', 'address', 'emergencyContact'].includes(field));
 
   return (
     <div className="border z-1000 border-[#00B2FF] rounded-md p-4 w-full max-w-[600px] mx-auto bg-white text-[#444] font-inter text-sm">
@@ -118,7 +145,7 @@ function EhrContainer({ data = {}, editMode }) {
           <div className="flex gap-2 items-center">
             <span>HR:</span>
             <input
-              readOnly={!editMode || !isMedical}
+              readOnly={!editMode || !canEdit('vitals')}
               value={hr}
               onChange={(e) => handleVitalsChange('HR', e.target.value)}
               className="w-14 px-2 py-1 border border-[#00B2FF] rounded text-center bg-[#F8FDFF]"
@@ -127,7 +154,7 @@ function EhrContainer({ data = {}, editMode }) {
           <div className="flex gap-2 items-center">
             <span>BP:</span>
             <input
-              readOnly={!editMode || !isMedical}
+              readOnly={!editMode || !canEdit('vitals')}
               value={bp}
               onChange={(e) => handleVitalsChange('BP', e.target.value)}
               className="w-20 px-2 py-1 border border-[#00B2FF] rounded text-center bg-[#F8FDFF]"
@@ -140,8 +167,8 @@ function EhrContainer({ data = {}, editMode }) {
       <div className="mb-4">
         <span className="font-semibold">Symptoms:</span>
         <textarea
-          readOnly={!editMode || !isMedical}
-          value={Array.isArray(symptoms) ? symptoms.join(', ') : ''}
+          readOnly={!editMode || !canEdit('symptoms')}
+          value={symptoms.join(', ')}
           onChange={(e) => handleFieldChange('symptoms', e.target.value.split(',').map(s => s.trim()))}
           className="w-full mt-1 p-2 border border-[#00B2FF] rounded bg-[#F8FDFF]"
           rows={3}
@@ -159,32 +186,54 @@ function EhrContainer({ data = {}, editMode }) {
         />
       </div>
 
-      {/* Show more toggle */}
-      {!showMore && (
+      {!showMore ? (
         <div className="text-center">
           <p onClick={() => setShowMore(true)} className="text-[#00B2FF] cursor-pointer hover:underline">
             Show more
           </p>
           <img src="/drop-down.svg" alt="Toggle Icon" className="mx-auto mt-1 w-4 h-4" />
         </div>
-      )}
-
-      {showMore && (
-        <div className="mt-4 border-t pt-4 text-sm text-gray-700 space-y-3">
+      ) : (
+        <div className="mt-4 border-t pt-4 text-sm text-gray-700 space-y-3 text-left">
           {/* Contact Info */}
           <div>
-            <p><strong>Contact:</strong> {contact}</p>
-            <p><strong>Email:</strong> {email}</p>
-            <p><strong>Emergency Contacts:</strong> {emergencyContact.join(', ') || 'N/A'}</p>
+            <p><strong>Contact:</strong> {editMode && canEdit('contact') ? (
+              <input className="border p-1 rounded w-full" value={contact} onChange={(e) => handleFieldChange('contact', e.target.value)} />
+            ) : contact}</p>
+
+            <p><strong>Email:</strong> {editMode && canEdit('email') ? (
+              <input
+                type="email"
+                className="border p-1 w-full rounded"
+                value={email}
+                onChange={(e) => handleFieldChange('email', e.target.value)}
+              />
+            ) : email || 'N/A'}</p>
+
+            <p><strong>Emergency Contacts:</strong> {editMode && canEdit('emergencyContact') ? (
+              <textarea
+                className="border p-1 w-full rounded"
+                value={emergencyContact.join(', ')}
+                onChange={(e) => handleFieldChange('emergencyContact', e.target.value.split(',').map(c => c.trim()))}
+              />
+            ) : emergencyContact.join(', ') || 'N/A'}</p>
           </div>
 
-          {/* Admission Info */}
+          {/* Address */}
+          <div>
+            <p><strong>Address:</strong></p>
+            {editMode && canEdit('address') ? (
+              <input className="border p-1 rounded w-full" value={address} onChange={(e) => handleFieldChange('address', e.target.value)} />
+            ) : <p>{address}</p>}
+          </div>
+
+          {/* Admission */}
           <div>
             <p><strong>Admission ID:</strong> {admission.admission_id || 'N/A'}</p>
-            <p><strong>Location:</strong> {editMode && isMedical ? (
+            <p><strong>Location:</strong> {editMode && canEdit('admission') ? (
               <input value={admission.location || ''} onChange={(e) => setEhrData(prev => ({ ...prev, admission: { ...prev.admission, location: e.target.value } }))} className="border px-2 py-1" />
             ) : admission.location || 'N/A'}</p>
-            <p><strong>Reason:</strong> {editMode && isMedical ? (
+            <p><strong>Reason:</strong> {editMode && canEdit('admission') ? (
               <input value={admission.reason || ''} onChange={(e) => setEhrData(prev => ({ ...prev, admission: { ...prev.admission, reason: e.target.value } }))} className="border px-2 py-1" />
             ) : admission.reason || 'N/A'}</p>
           </div>
@@ -193,7 +242,7 @@ function EhrContainer({ data = {}, editMode }) {
           <div>
             <p><strong>Procedures:</strong></p>
             <textarea
-              readOnly={!editMode || !isMedical}
+              readOnly={!editMode || !canEdit('procedures')}
               value={procedures.join(', ')}
               onChange={(e) => handleFieldChange('procedures', e.target.value.split(',').map(p => p.trim()))}
               className="w-full p-2 border border-[#00B2FF] rounded bg-[#F8FDFF]"
