@@ -3,15 +3,21 @@ import EhrContainer from '../../components/EhrContainer';
 import { data } from '../../data/ehr'; // optional fallback
 import Analysismedical from '../../components/medical/Analysis.medical';
 import { API } from '../../service/api';
+import { useNavigate, useParams } from 'react-router-dom';
 
 function Ehrmedical() {
   const [ehr, setEhr] = useState({});
-  const patientId = 'PAT5469919140'; // manually set for testing
+  const { patientId } = useParams(); // ← Get patient ID from route
+  const navigate = useNavigate();
+  const handleExit = () => {
+   
+      navigate(`/medical/home`);
 
+  };
   const fetchEhr = async () => {
     try {
       console.log({patientId})
-      const response = await API.fetchByPatientId({ patientId }); // ensure this matches API structure
+      const response = await API.fetchByPatientId({ patientId }); 
       console.log("API Response:", response?.data);
       setEhr(response?.data);
     } catch (error) {
@@ -22,7 +28,7 @@ function Ehrmedical() {
 
   useEffect(() => {
     fetchEhr();
-  }, []);
+  }, [patientId]);
 
   return (
     <div className="relative mt-10 mb-10 flex flex-col gap-8 items-center">
@@ -32,7 +38,8 @@ function Ehrmedical() {
 
       <div className="flex flex-col sm:flex-row gap-3 w-full sm:justify-center">
         <button className="btn btn-outline text-[#0095DA] outline-[#69A4DC] rounded-[15px] text-sm sm:text-base 
-                            w-full sm:w-[200px] h-[44px] sm:h-[48px]">
+                            w-full sm:w-[200px] h-[44px] sm:h-[48px]"
+                            onClick={handleExit}>
           Exit
         </button>
         <button className="btn btn-outline text-[#0095DA] outline-[#69A4DC] rounded-[15px] text-sm sm:text-base 
