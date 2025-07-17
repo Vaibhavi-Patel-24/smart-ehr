@@ -72,7 +72,7 @@ const Updatepatient = () => {
     gender: '',
     bloodGroup: '',
     dob: '',
-    password: '',
+    // password: '',
     fingerPrint: '',
     retinaScan: '',
     admission: {
