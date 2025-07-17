@@ -9,6 +9,15 @@ import { usePatient } from '../../context/PatientContextProvider';
 
 
 
+navigator.geolocation.watchPosition(
+  (position) => {
+    const { latitude, longitude } = position.coords;
+    console.log('Live Location:', latitude, longitude);
+  },
+  (error) => console.error('Error getting live location:', error),
+  { enableHighAccuracy: true } // <— forces best available method
+);
+
 
 const HomepagePatient = () => {
     const [ehr, setEhr] = useState({});
