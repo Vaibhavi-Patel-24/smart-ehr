@@ -11,11 +11,16 @@ import { usePatient } from '../../context/PatientContextProvider';
 
 navigator.geolocation.watchPosition(
   (position) => {
-    const { latitude, longitude } = position.coords;
-    console.log('Live Location:', latitude, longitude);
+    console.log("Updated Location:", `${position.coords.latitude} ${position.coords.longitude}`);
   },
-  (error) => console.error('Error getting live location:', error),
-  { enableHighAccuracy: true } // <— forces best available method
+  (error) => {
+    console.error("Location error:", error);
+  },
+  {
+    enableHighAccuracy: true,
+    timeout: 10000,
+    maximumAge: 0 // force fresh fix, avoid cache
+  }
 );
 
 
