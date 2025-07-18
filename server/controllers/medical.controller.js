@@ -1,3 +1,4 @@
+import mongoose from "mongoose";
 import Medical from "../models/medical.js";
 import bcrypt from 'bcrypt';
 
@@ -21,7 +22,7 @@ const generateUniqueMedicalId = async () => {
 
 
 export const createMedical = async (req, res) => {
-  const { name, branchName, address, contact, email, password } = req.body;
+  const { name, branchName, address, contact, email, password, hospitalId } = req.body;
 
   try {
     
@@ -41,6 +42,7 @@ export const createMedical = async (req, res) => {
 
     const newMedical = new Medical({
       medicalId,
+      hospitalId: new mongoose.Types.ObjectId(hospitalId), // 👈 convert string to ObjectId
       name,
       branchName,
       address,
