@@ -5,6 +5,7 @@ import { loginMedical } from '../controllers/login.medical.controller.js';
 import { loginAdmin } from '../controllers/login.admin.controller.js';
 import { addPatient, getAllPatients, getPatientById, getPatientByPatientId, updatePatientbyAdmin, updatePatientbyMedical, updatePatientSelf ,deletePatient} from '../controllers/patient.controller.js';
 import auth from '../middleware/auth.js';
+import { createHospital, deleteHospital, getAllHospitals, getHospitalById, updateHospital } from '../controllers/hospital.controller.js';
 // import all the controllers here from controller folder
 
 const router = express.Router();
@@ -29,6 +30,11 @@ router.patch('/admin/medical/:medicalId', auth, updateMedicalByAdmin);
 router.patch('/medical/patients/:patientId', auth, updatePatientbyMedical);
 router.patch('/patients/:patientId',auth, updatePatientSelf);
 
+router.post('/hospital/addhospital', auth, createHospital);
+router.get('/hospital/allhospitals', auth, getAllHospitals);
+router.get('/admin/hospital/:hospitalId', auth, getHospitalById);
+router.patch('/admin/hospital/:hospitalId', auth, updateHospital);
+router.delete('/hospital/deletehospital/:hospitalId', auth, deleteHospital);
 
 
 

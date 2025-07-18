@@ -145,10 +145,10 @@ export const updatePatientbyAdmin = async (req, res) => {
   try {
     delete updates.patientId;
 
-    if (updates.password) {
-      const salt = await bcrypt.genSalt(10);
-      updates.password = await bcrypt.hash(updates.password, salt);
-    }
+    // if (updates.password) {
+    //   const salt = await bcrypt.genSalt(10);
+    //   updates.password = await bcrypt.hash(updates.password, salt);
+    // }
 
     const updated = await Patient.findOneAndUpdate(
       { patientId },
