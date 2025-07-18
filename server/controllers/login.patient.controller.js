@@ -6,12 +6,19 @@ import dotenv from "dotenv";
 dotenv.config();
 export const loginPatient = async (req, res) => {
   const { email, password } = req.body;
+  console.log(`loggingIn: ${email}`)
   try {
     const user = await Patient.findOne({ email });
-    if (!user) return res.status(404).json({ message: "Patient user not found" });
+    if (!user) {
+      console.log(`patient not found`)
+      return res.status(404).json({ message: "Patient user not found" });}
+      
+      const isMatch = await bcrypt.compare(password, user.password);
+      if (!isMatch){
 
-    const isMatch = await bcrypt.compare(password, user.password);
-    if (!isMatch) return res.status(401).json({ message: "Invalid credentials" });
+        console.log(`Invalid Password`)
+        return res.status(401).json({ message: "Invalid credentials" });
+      } 
 
     const token = jwt.sign(
       { id: user._id, email: user.email },

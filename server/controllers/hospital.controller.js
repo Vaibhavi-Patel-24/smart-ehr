@@ -2,10 +2,7 @@ import Hospital from '../models/hospital.js';
 
 // Generate custom Hospital ID
 const generateHospitalId = () => {
-  const prefix = "HSP";
-  const timestamp = Date.now().toString().slice(-6);
-  const random = Math.floor(1000 + Math.random() * 9000);
-  return `${prefix}${timestamp}${random}`;
+  return new mongoose.Types.ObjectId().toHexString(); // ⬅ 24-char ObjectId-like string
 };
 
 const generateUniqueHospitalId = async () => {
