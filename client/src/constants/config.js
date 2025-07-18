@@ -16,6 +16,10 @@ export const SERVICE_URLS={
    getPatientById: { url: "/admin/patient/:patientId", method: "GET"},
 
     updatePatientSelf: { url: '/patients/:patientId', method: 'PATCH' },
+  //   predictDisease: {
+  //   url: "/predict",     // Flask will receive it at http://localhost:8000/predict
+  //   method: "POST",
+  // },
 }
 
 

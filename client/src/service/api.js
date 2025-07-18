@@ -148,4 +148,24 @@ for (const [key, value] of Object.entries(SERVICE_URLS)) {
   };
 }
 
+API.predictDisease = async (payload) => {
+  try {
+    const res = await axios.post("http://127.0.0.1:8000/predict", payload, {
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    return { isSuccess: true, data: res.data };
+  } catch (err) {
+    console.log("Prediction error:", err.message);
+    return {
+      isSuccess: false,
+      msg: err.message || "Prediction failed",
+    };
+  }
+};
+
+
 export { API };
+
+
