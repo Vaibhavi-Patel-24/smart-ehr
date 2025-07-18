@@ -57,7 +57,9 @@ const patientSchema = mongoose.Schema({
   procedures:      { type: [String], default: [] },
   contact:         { type: String, required: true },
   email:           { type: String, required: true },
-  emergencyContact:{ type: [String], required: true }
+  emergencyContact:{ type: [String], required: true },
+   otp:              { type: String, default: null },
+  otpExpiry:        { type: Date, default: null }
 }, { timestamps: true });
 
 

@@ -1,5 +1,6 @@
 import Medical from "../models/medical.js";
 import bcrypt from 'bcrypt';
+import nodemailer from 'nodemailer'; 
 
 const generateMedicalId = () => {
   const prefix = "MED";
@@ -149,5 +150,86 @@ export const updateMedicalByAdmin = async (req, res) => {
       message: "Update failed",
       error: error.message,
     });
+  }
+};
+
+export const sendOTPToMedical = async (email, otp) => {
+  try {
+    const transporter = nodemailer.createTransport({
+      host: 'smtp-relay.brevo.com',
+      port: 587,
+      secure: false,
+      auth: {
+        user: '92756b001@smtp-brevo.com',
+        pass: 'MhDnGRBfvTry8xF2',
+      },
+    });
+
+    const mailOptions = {
+      from: 'vaibhavipatel9424@gmail.com',
+      to: email,
+      subject: 'Your OTP Code for Medical Account',
+      text: `Your OTP is ${otp}`,
+      html: `<p>Your OTP is <strong>${otp}</strong></p>`,
+    };
+
+    const info = await transporter.sendMail(mailOptions);
+    console.log("Medical OTP email sent:", info.response);
+  } catch (err) {
+    console.error("Error sending OTP to medical email:", err);
+    throw err;
+  }
+};
+
+
+export const sendMedicalOTP = async (req, res) => {
+  try {
+    const { email } = req.body;
+    if (!email) return res.status(400).json({ message: "Email is required" });
+
+    const medical = await Medical.findOne({ email });
+    if (!medical) return res.status(404).json({ message: "Medical user not found" });
+
+    const otp = Math.floor(100000 + Math.random() * 900000).toString();
+    const expiry = new Date(Date.now() + 10 * 60 * 1000); // 10 minutes
+
+    medical.otp = otp;
+    medical.otpExpiry = expiry;
+    await medical.save();
+
+    await sendOTPToMedical(email, otp); // or sendOTPEmail(email, otp) if using same function
+
+    res.status(200).json({ message: "OTP sent successfully" });
+  } catch (error) {
+    console.error("Error in sendMedicalOTP:", error);
+    res.status(500).json({ message: "Internal server error" });
+  }
+};
+export const verifyMedicalOTP = async (req, res) => {
+  const { email, otp, newPassword } = req.body;
+
+  try {
+    const user = await Medical.findOne({ email });
+
+    if (!user) return res.status(404).json({ isSuccess: false, message: "User not found" });
+    if (user.otp !== otp || Date.now() > user.otpExpiry)
+      return res.status(400).json({ isSuccess: false, message: "Invalid or expired OTP" });
+
+    // ✅ Password Reset
+    if (newPassword) {
+      const hashedPassword = await bcrypt.hash(newPassword, 10);
+      user.password = hashedPassword;
+      user.otp = null;
+      user.otpExpiry = null;
+      await user.save();
+      return res.status(200).json({ isSuccess: true, message: "Password reset successful" });
+    }
+
+    // ✅ OTP Verified
+    return res.status(200).json({ isSuccess: true, message: "OTP verified" });
+
+  } catch (err) {
+    console.error("Error verifying medical OTP:", err);
+    res.status(500).json({ isSuccess: false, message: "Server error" });
   }
 };

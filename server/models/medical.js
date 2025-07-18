@@ -50,7 +50,9 @@ const medicalSchema = mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "Hospital", // This assumes you have a separate Hospital model
     required: true
-  }
+  },
+  otp: {type: String,default: null},
+  otpExpiry: {type: Date,default: null,},
 
 }, { timestamps: true });
 
