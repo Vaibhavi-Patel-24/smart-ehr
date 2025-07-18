@@ -13,9 +13,16 @@ export const SERVICE_URLS={
     updateMedicalByAdmin: {url: '/admin/medical/:medicalId', method: 'PATCH',},
     getMedicalById: { url: "/admin/medical/:medicalId", method: "GET"},
     updatePatientbyAdmin: {url: '/admin/patient/:patientId', method: 'PATCH',},
-   getPatientById: { url: "/admin/patient/:patientId", method: "GET"},
-
+    getPatientById: { url: "/admin/patient/:patientId", method: "GET"},
+    
     updatePatientSelf: { url: '/patients/:patientId', method: 'PATCH' },
+    
+    addHospital: { url: '/hospital/addhospital',method: 'POST'},
+    getAllHospital: { url: '/hospital/allhospitals',method: 'GET'},
+    getHospital: { url: '/admin/hospital/:hospitalId',method: 'GET'},
+    updateHospital: { url: '/admin/hospital/:hospitalId',method: 'PATCH'},
+    deleteHospital: { url: '/hospital/deletehospital/:hospitalId',method: 'DELETE'},
+
 }
 
 

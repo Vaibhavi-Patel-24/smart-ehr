@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import doctor_stethoscope from '../../assets/doctor_stethoscope.png';
 import patient_profile from '../../assets/patient_profile.png';
+import { PiHospitalFill } from "react-icons/pi";
 import { Link } from 'react-router-dom';
 import { Menu } from 'lucide-react'; // Install this via npm if not already
 import right_arrow_black from '../../assets/right_arrow_black.png'
@@ -88,6 +89,22 @@ const SidebarContent = () => (
       </Link>
       <Link to="/admin/removemedical">
         <li className="cursor-pointer text-[rgb(0,149,218)] font-semibold">Remove Medical</li>
+      </Link>
+    </ul>
+    <ul className="space-y-3 mt-6">
+      <li className="flex items-center gap-2 text-black font-bold text-xl">
+        <span>Hospital</span>
+        <PiHospitalFill alt="Hospital" className='w-6 h-6'/>
+        {/* <img src={doctor_stethoscope} alt="Medical" className="w-6 h-6" /> */}
+      </li>
+      <Link to="/admin/addhospital">
+        <li className="cursor-pointer text-[rgb(0,149,218)] font-semibold">Add Hospital</li>
+      </Link>
+      <Link to="/admin/updatehospital">
+        <li className="cursor-pointer text-[rgb(0,149,218)] font-semibold">Manage Hospital</li>
+      </Link>
+      <Link to="/admin/removehospital">
+        <li className="cursor-pointer text-[rgb(0,149,218)] font-semibold">Remove Hospital</li>
       </Link>
     </ul>
   </>
