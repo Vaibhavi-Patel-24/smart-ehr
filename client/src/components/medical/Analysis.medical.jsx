@@ -89,8 +89,7 @@ function Analysismedical() {
   const [analysisResult, setAnalysisResult] = useState(null);
 
   const symptomList = [
-    'HEAD ACHE', 'COUGH', 'FATIGUE', 'CONTINUOUS SNEEZING',
-    'ANXIETY', 'SHIVERING', 'JOINT PAIN', 'EACHING', 'STOMACH PAIN'
+    'ELBOW PAIN', 'COUGH', 'FATIGUE', 'FEVER', 'ANKLE WEAKNESS', 'EACHING', 'DEPRESSION', 'SHORTNESS OF BREATH',' ANXIETY AND NERVOUSNESS'
   ];
 
   const handleCheckboxChange = (e) => {

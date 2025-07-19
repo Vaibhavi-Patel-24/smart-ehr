@@ -1,11 +1,12 @@
 import express from 'express';
-import { createMedical,getAllMedicals,getMedicalById,deleteMedical,updateMedical ,updateMedicalByAdmin } from '../controllers/medical.controller.js';
+import { createMedical,getAllMedicals,getMedicalById,deleteMedical,updateMedical ,updateMedicalByAdmin ,sendMedicalOTP,verifyMedicalOTP} from '../controllers/medical.controller.js';
 import { loginPatient } from '../controllers/login.patient.controller.js';
 import { loginMedical } from '../controllers/login.medical.controller.js';
 import { loginAdmin } from '../controllers/login.admin.controller.js';
-import { addPatient, getAllPatients, getPatientById, getPatientByPatientId, updatePatientbyAdmin, updatePatientbyMedical, updatePatientSelf ,deletePatient} from '../controllers/patient.controller.js';
+import { addPatient, getAllPatients, getPatientById, getPatientByPatientId, updatePatientbyAdmin, updatePatientbyMedical, updatePatientSelf ,deletePatient ,sendPatientOTP,verifyPatientOTP} from '../controllers/patient.controller.js';
 import auth from '../middleware/auth.js';
 import { createHospital, deleteHospital, getAllHospitals, getHospitalById, updateHospital } from '../controllers/hospital.controller.js';
+import { sendAdminOTP,verifyAdminOTP } from '../controllers/admin.controller.js';
 // import all the controllers here from controller folder
 
 const router = express.Router();
@@ -36,6 +37,12 @@ router.get('/admin/hospital/:hospitalId', auth, getHospitalById);
 router.patch('/admin/hospital/:hospitalId', auth, updateHospital);
 router.delete('/hospital/deletehospital/:hospitalId', auth, deleteHospital);
 
+router.post('/admin/patient/send-otp', sendPatientOTP);
+router.post('/admin/patient/verify-otp', verifyPatientOTP);
+router.post('/admin/medical/send-otp', sendMedicalOTP);
+router.post('/admin/medical/verify-otp', verifyMedicalOTP);
+router.post('/admin/send-otp', sendAdminOTP);
+router.post('/admin/verify-otp', verifyAdminOTP);
 
 
 export default router;

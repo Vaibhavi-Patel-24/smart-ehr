@@ -26,6 +26,12 @@ export const SERVICE_URLS={
     getHospital: { url: '/admin/hospital/:hospitalId',method: 'GET'},
     updateHospital: { url: '/admin/hospital/:hospitalId',method: 'PATCH'},
     deleteHospital: { url: '/hospital/deletehospital/:hospitalId',method: 'DELETE'},
+    sendPatientOTP:     { url: '/admin/patient/send-otp', method: 'POST' },
+    verifyPatientOTP:   { url: '/admin/patient/verify-otp', method: 'POST' },
+    sendMedicalOTP:     { url: '/admin/medical/send-otp', method: 'POST' },
+    verifyMedicalOTP:   { url: '/admin/medical/verify-otp', method: 'POST' },
+    sendAdminOTP:     { url: '/admin/send-otp', method: 'POST' },
+    verifyAdminOTP:   { url: '/admin/verify-otp', method: 'POST' },    
 
 }
 

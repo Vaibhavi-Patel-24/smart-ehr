@@ -1,5 +1,38 @@
 import Patient from "../models/patient.js";
 import bcrypt from "bcrypt";
+import nodemailer from 'nodemailer'; 
+
+// Configure nodemailer (for Gmail example)
+
+export const sendOTPEmail = async (email, otp) => {
+  try {
+    const transporter = nodemailer.createTransport({
+      host: 'smtp-relay.brevo.com',   // ✅ Brevo SMTP server
+      port: 587,
+      secure: false,
+      auth: {
+        user: '92756b001@smtp-brevo.com', // ✅ Your Brevo SMTP login
+        pass: 'MhDnGRBfvTry8xF2',         // ✅ Your Brevo SMTP password
+      },
+    });
+
+    const mailOptions = {
+      from: 'vaibhavipatel9424@gmail.com',  // Friendly name
+      to: email,
+      subject: 'Your OTP Code is here',
+      text: `Your OTP is ${otp}`,
+      html: `<p>Your OTP is <strong>${otp}</strong></p>`,
+    };
+
+    const info = await transporter.sendMail(mailOptions);
+    console.log("Email sent:", info.response);
+  } catch (err) {
+    console.error("Error sending email:", err);
+    throw err;
+  }
+};
+
+
 
 // Helper to generate unique patient ID
 const generatePatientId = () => {
@@ -272,3 +305,66 @@ export const deletePatient = async (req, res) => {
     res.status(400).json({ message: 'Server error', error: error.message });
   }
 };
+
+
+
+// POST /patients/send-otp
+export const sendPatientOTP = async (req, res) => {
+  try {
+    const { email } = req.body;
+    if (!email) return res.status(400).json({ message: "Email is required" });
+
+    const patient = await Patient.findOne({ email });
+    if (!patient) return res.status(404).json({ message: "Patient not found" });
+
+    const otp = Math.floor(100000 + Math.random() * 900000).toString();
+    const expiry = new Date(Date.now() + 10 * 60 * 1000); // 10 minutes from now
+
+    patient.otp = otp;
+    patient.otpExpiry = expiry;
+    await patient.save();
+
+    await sendOTPEmail(email, otp);
+
+    res.status(200).json({ message: "OTP sent successfully" });
+  } catch (error) {
+    console.error("Error in sendPatientOTP:", error);
+    res.status(500).json({ message: "Internal server error" });
+  }
+};
+
+
+
+
+// POST /patients/verify-otp
+export const verifyPatientOTP = async (req, res) => {
+  const { email, otp, newPassword } = req.body;
+
+  try {
+    const user = await Patient.findOne({ email });
+
+    if (!user) return res.status(404).json({ isSuccess: false, message: "User not found" });
+    if (user.otp !== otp || Date.now() > user.otpExpiry)
+      return res.status(400).json({ isSuccess: false, message: "Invalid or expired OTP" });
+
+    // ✅ Step 3: If newPassword is provided, update it
+    if (newPassword) {
+      const hashedPassword = await bcrypt.hash(newPassword, 10);
+      user.password = hashedPassword;
+      user.otp = null;
+      user.otpExpiry = null;
+      await user.save();
+      return res.status(200).json({ isSuccess: true, message: "Password reset successful" });
+    }
+
+    // ✅ Step 2: OTP is valid, but password not yet provided
+    return res.status(200).json({ isSuccess: true, message: "OTP verified" });
+
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ isSuccess: false, message: "Server error" });
+  }
+};
+
+
+
