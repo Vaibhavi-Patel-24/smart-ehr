@@ -17,15 +17,25 @@ function LoginCommon() {
   const handleMedicalLogin = async () => {
     try {
       const response = await API.loginMedical({ email: medicalId, password: medicalPassword });
-      if (response.isSuccess) {
-        const token = response.data.token;
-        localStorage.setItem("token", token);
-        localStorage.setItem("role", "medical");
-        alert("Medical login successful!");
-        navigate('/medical/home');
-      } else {
+     if (response.isSuccess) {
+      const token = response.data.token;
+      const medicalId = response.data.user.medicalId; // assuming backend sends full user under "medical"
+      const hospitalId = response.data.user.hospitalId; // assuming backend sends full user under "medical"
+      console.log(medicalId)
+      if (medicalId) {
+        sessionStorage.setItem("medicalId", medicalId);
+        sessionStorage.setItem("hospitalId", hospitalId);
+      }
+
+      localStorage.setItem("token", token);
+      localStorage.setItem("role", "medical");
+
+      alert("Medical login successful!");
+      navigate('/medical/home');
+    }else {
         alert("Medical login failed");
       }
+
     } catch (error) {
       alert("Invalid credentials or server error");
       console.error(error);

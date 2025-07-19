@@ -34,76 +34,83 @@ const server = http.createServer(app)
 // Setup Socket.IO
 const io = new Server(server, {
   cors: {
-    origin: '*', // In production, specify your frontend domain
+    origin: '*', // Update to your frontend domain in prod
   },
 })
 
 global.io = io
-global.onlineUsers = {}
+global.onlineUsers = {} // Map of { hospitalId: socket.id }
 
 io.on('connection', (socket) => {
   console.log(`Socket connected: ${socket.id}`)
 
-  // Register medical user by hospitalId
-  socket.on('register-medical', (medicalId) => {
-    global.onlineUsers[medicalId] = socket.id
-    console.log(`Medical ${medicalId} registered with socket ${socket.id}`)
+  // Medical user registers with their hospitalId
+  socket.on('register-medical', (hospitalId) => {
+    global.onlineUsers[hospitalId] = socket.id
+    console.log(`Registered medical (hospitalId: ${hospitalId}) with socket ${socket.id}`)
   })
 
-  // SOS: receive patient location and broadcast to nearby hospitals
+  // SOS triggered by patient
   socket.on('sos-alert', async ({ patientId, location }) => {
     try {
       console.log(`Received SOS from ${patientId}:`, location)
 
-      // Fetch patient details
       const patient = await Patient.findOne({ patientId })
+      if (!patient) return
 
-      // Find nearby hospitals using GeoJSON
+const { firstName = 'Unknown', middleName = '', lastName = '' } = patient
+
       const nearbyHospitals = await Hospital.find({
         location: {
           $near: {
             $geometry: location, // { type: 'Point', coordinates: [lng, lat] }
-            $maxDistance: 20000, // 20km radius
+            $maxDistance: 20000,
           },
         },
       })
 
-      console.log(`Found ${nearbyHospitals.length} hospitals near SOS`)
+      console.log(`Found ${nearbyHospitals.length} nearby hospitals`)
 
-      // 1. Send to all registered medicals
+      // Broadcast to registered medical users from nearby hospitals
       for (const hospital of nearbyHospitals) {
-        const medicalSocketId = global.onlineUsers[hospital.hospitalId]
-        if (medicalSocketId) {
-          io.to(medicalSocketId).emit('sos-alert', {
+        const socketId = global.onlineUsers[hospital.hospitalId]
+        
+        if (socketId) {
+          io.to(socketId).emit('sos-alert', {
             patientId,
-            patientName: patient?.name || 'Unknown',
+            firstName,
+            middleName,
+            lastName,
+            contact: patient.contact || 'N/A',
             location,
-            timestamp: new Date(),
+            timestamp: new Date().toISOString(),  
           })
-          console.log(`SOS alert sent to ${hospital.hospitalId}`)
+
+
+          console.log(`Alert sent to ${hospital.hospitalId}`)
         }
-    }
-    // 2. Also respond back to the patient with the hospital list
-    socket.emit('sos-alert', {
-        hospitals: nearbyHospitals.map(h => ({
-            name: h.name,
-            address: h.address,
-            contact: h.contact,
-            location: h.location,
+      }
+
+      // Also respond to the patient with nearby hospitals
+      socket.emit('sos-alert', {
+        hospitals: nearbyHospitals.map((h) => ({
+          name: h.name,
+          address: h.address,
+          contact: h.contact,
+          location: h.location,
         })),
-    })
-    console.log(nearbyHospitals)
+      })
     } catch (err) {
-      console.error('Error handling sos-location:', err)
+      console.error('Error processing sos-alert:', err)
     }
   })
 
-  // Handle disconnect
+  // Cleanup on disconnect
   socket.on('disconnect', () => {
-    for (const [id, sockId] of Object.entries(global.onlineUsers)) {
+    for (const [hospitalId, sockId] of Object.entries(global.onlineUsers)) {
       if (sockId === socket.id) {
-        delete global.onlineUsers[id]
-        console.log(`Medical ${id} disconnected`)
+        delete global.onlineUsers[hospitalId]
+        console.log(`Medical disconnected: ${hospitalId}`)
         break
       }
     }
@@ -111,10 +118,6 @@ io.on('connection', (socket) => {
 })
 
 // Start server
-try {
-  server.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`)
-  })
-} catch (error) {
-  console.error('Server failed to start:', error)
-}
+server.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`)
+})
