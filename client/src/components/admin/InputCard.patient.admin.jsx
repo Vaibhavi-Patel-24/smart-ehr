@@ -66,7 +66,7 @@ const InputCard = () => {
   };
 
   return (
-    <div className="bg-[rgb(182,177,177)] w-11/12 max-w-4xl h-[90vh] rounded-xl opacity-90 flex flex-col justify-start items-center gap-4 overflow-y-scroll p-4 shadow-lg">
+    <div className="bg-[rgb(182,177,177)] mb-10 w-10/12 max-w-4xl h-[90vh] rounded-xl opacity-90 flex flex-col justify-start items-center gap-4 overflow-y-scroll p-4 shadow-lg">
       <div className="w-full h-full overflow-y-auto px-3 py-4 flex flex-col gap-5">
         
         {/* Basic Info */}
