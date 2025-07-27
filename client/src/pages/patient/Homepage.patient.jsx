@@ -7,6 +7,7 @@ import { API } from '../../service/api';
 import { usePatient } from '../../context/PatientContextProvider';
 import io from 'socket.io-client';
 import { FaDirections } from "react-icons/fa";
+import DownloadableQR from '../../components/DownloadableQR';
 
 
 const socket = io('http://localhost:8000'); // Adjust to your backend
@@ -196,14 +197,14 @@ const HomepagePatient = () => {
               return (
                 <div key={idx} className="bg-gray-100 p-4 text-left rounded-xl mb-3 shadow">
                   <p className="text-blue-800 font-bold">{hosp.name}</p>
-                  <p className="text-sm">Address: {hosp.address}</p>
-                  <p className="text-sm">📍 {getDistance(
+                  <p className="text-sm text-black">Address: {hosp.address}</p>
+                  <p className="text-sm text-black">📍 {getDistance(
                     location.latitude,
                     location.longitude,
                     destLat,
                     destLng
                   ).toFixed(1)} km</p>
-                  <p className="text-sm">Contact: {hosp.contact}</p>
+                  <p className="text-sm text-black">Contact: {hosp.contact}</p>
                   <a
                     href={mapsLink}
                     target="_blank"
@@ -217,7 +218,7 @@ const HomepagePatient = () => {
             })}
           </div>
         )}
-
+        <DownloadableQR/>
         <div className="w-full max-w-3xl text-left">
           <EhrContainer data={ehr} editMode={editMode} setEditMode={setEditMode} />
         </div>
