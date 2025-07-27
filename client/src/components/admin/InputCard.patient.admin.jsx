@@ -1,6 +1,42 @@
 import React, { useState } from 'react';
 import { API } from '../../service/api';
 
+// --- Reusable Form Components for Cleanliness ---
+
+/**
+ * A styled wrapper for a form section with a title and a responsive grid layout.
+ */
+const FormSection = ({ title, children, gridCols = 'lg:grid-cols-3' }) => (
+  <div className="w-full border-t border-black/20 pt-5 mt-5 first:mt-0 first:border-t-0 first:pt-0">
+    <h3 className="text-xl font-bold text-black mb-5">{title}</h3>
+    <div className={`grid grid-cols-1 md:grid-cols-2 ${gridCols} gap-x-8 gap-y-6`}>
+      {children}
+    </div>
+  </div>
+);
+
+/**
+ * A styled, reusable input field with a label.
+ */
+const FormField = ({ label, name, value, onChange, type = 'text', placeholder, required = true, className = '' }) => (
+  <div className={`flex flex-col ${className}`}>
+    <label htmlFor={name} className="text-sm font-semibold text-black mb-1">
+      {label}{required && <span className="text-red-500">*</span>}
+    </label>
+    <input
+      id={name}
+      name={name}
+      type={type}
+      value={value}
+      onChange={onChange}
+      placeholder={placeholder || `Enter ${label}...`}
+      className="w-full bg-transparent border-b-2 border-black text-black font-semibold px-2 py-1 focus:outline-none placeholder-gray-700"
+    />
+  </div>
+);
+
+// --- Main Component ---
+
 const defaultFormData = {
   firstName: '', middleName: '', lastName: '',
   dob: '', bloodGroup: '', gender: '', address: '', contact: '', email: '',
@@ -16,48 +52,34 @@ const defaultFormData = {
 const InputCard = () => {
   const [formData, setFormData] = useState({ ...defaultFormData });
 
-  const handleFieldChange = (field, value) =>
-    setFormData(prev => ({ ...prev, [field]: value }));
-
-  const handleAdmissionChange = (field, value) =>
-    setFormData(prev => ({ ...prev, admission: { ...prev.admission, [field]: value } }));
-
-  const handleArrayChange = (array, index, key, value) => {
-    const copy = [...formData[array]];
-    copy[index][key] = value;
-    setFormData(prev => ({ ...prev, [array]: copy }));
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+  
+  const handleNestedChange = (section, field, value) => {
+      setFormData(prev => ({
+          ...prev,
+          [section]: { ...prev[section], [field]: value }
+      }));
   };
 
-  const label = (text, required = true) => (
-    <label className="text-sm font-semibold text-black">
-      {text}{required && <span className="text-red-600">*</span>}
-    </label>
-  );
+  const handleArrayChange = (arrayName, index, field, value) => {
+    const updatedArray = [...formData[arrayName]];
+    updatedArray[index] = { ...updatedArray[index], [field]: value };
+    setFormData(prev => ({ ...prev, [arrayName]: updatedArray }));
+  };
 
   const handleSubmit = async () => {
     try {
-      const payload = {
-        ...formData,
-        password: formData.password?.trim() || '123',
-        dob: new Date(formData.dob),
-        vitals: formData.vitals.map(v => ({ ...v, timestamp: new Date() })),
-        medications: formData.medications.map(m => ({
-          ...m,
-          start_date: new Date(m.start_date),
-          end_date: m.end_date ? new Date(m.end_date) : null
-        })),
-        notes: formData.notes.map(n => ({
-          ...n,
-          timestamp: new Date(n.timestamp)
-        }))
-      };
-
+      // Note: Add more robust validation as needed
+      const payload = { ...formData }; // Create a copy to transform
       const res = await API.addPatient(payload);
       if (res.isSuccess) {
         alert(res.data.message || 'Patient added successfully!');
-        setFormData({ ...defaultFormData }); // ✅ Clear form
+        setFormData({ ...defaultFormData }); // Clear form
       } else {
-        alert('Something went wrong. Please try again.');
+        alert(res.msg || 'Something went wrong. Please try again.');
       }
     } catch (error) {
       alert(error.message || 'Failed to add patient');
@@ -66,116 +88,61 @@ const InputCard = () => {
   };
 
   return (
-    <div className="bg-[rgb(182,177,177)] mb-10 w-10/12 max-w-4xl h-[90vh] rounded-xl opacity-90 flex flex-col justify-start items-center gap-4 overflow-y-scroll p-4 shadow-lg">
-      <div className="w-full h-full overflow-y-auto px-3 py-4 flex flex-col gap-5">
+    <div className="bg-[rgb(182,177,177)] w-full max-w-6xl rounded-xl opacity-90 p-6 md:p-8 flex flex-col items-center gap-6 max-h-[85vh] overflow-y-auto">
+      
+      <div className="w-full">
+        <FormSection title="Personal Information">
+          <FormField label="First Name" name="firstName" value={formData.firstName} onChange={handleChange} />
+          <FormField label="Middle Name" name="middleName" value={formData.middleName} onChange={handleChange} required={false} />
+          <FormField label="Last Name" name="lastName" value={formData.lastName} onChange={handleChange} />
+          <FormField label="Date of Birth" name="dob" type="date" value={formData.dob} onChange={handleChange} />
+          <FormField label="Gender" name="gender" value={formData.gender} onChange={handleChange} />
+          <FormField label="Blood Group" name="bloodGroup" value={formData.bloodGroup} onChange={handleChange} />
+        </FormSection>
+
+        <FormSection title="Contact & Authentication">
+          <FormField label="Address" name="address" value={formData.address} onChange={handleChange} />
+          <FormField label="Contact Number" name="contact" value={formData.contact} onChange={handleChange} />
+          <FormField label="Email" name="email" type="email" value={formData.email} onChange={handleChange} />
+          <FormField label="Emergency Contact" name="emergencyContact" value={formData.emergencyContact[0]} onChange={(e) => setFormData(prev => ({...prev, emergencyContact: [e.target.value]}))} />
+          <FormField label="Password" name="password" type="password" value={formData.password} onChange={handleChange} placeholder="Default: 123" required={false} />
+        </FormSection>
         
-        {/* Basic Info */}
-        <div className="flex flex-col lg:flex-row gap-4">
-          {['First Name', 'Middle Name', 'Last Name'].map((labelName, idx) => (
-            <div className="flex flex-col flex-1" key={idx}>
-              {label(labelName, labelName !== 'Middle Name')}
-              <input className="input input-bordered"
-                value={formData[labelName.toLowerCase().replace(' ', '')]}
-                onChange={e => handleFieldChange(labelName.toLowerCase().replace(' ', ''), e.target.value)} />
-            </div>
-          ))}
-        </div>
+        <FormSection title="Biometric Hashes (Optional)" gridCols="lg:grid-cols-2">
+            <FormField label="Fingerprint Hash" name="fingerPrint" value={formData.fingerPrint} onChange={handleChange} required={false} />
+            <FormField label="Retina Scan Hash" name="retinaScan" value={formData.retinaScan} onChange={handleChange} required={false} />
+        </FormSection>
 
-        {/* Demographics */}
-        <div className="flex flex-col lg:flex-row gap-4">
-          <div className="flex flex-col flex-1">{label('Date of Birth')}
-            <input type="date" className="input input-bordered" value={formData.dob} onChange={e => handleFieldChange('dob', e.target.value)} />
-          </div>
-          <div className="flex flex-col flex-1">{label('Blood Group')}
-            <input className="input input-bordered" value={formData.bloodGroup} onChange={e => handleFieldChange('bloodGroup', e.target.value)} />
-          </div>
-          <div className="flex flex-col flex-1">{label('Gender')}
-            <input className="input input-bordered" value={formData.gender} onChange={e => handleFieldChange('gender', e.target.value)} />
-          </div>
-        </div>
+        <FormSection title="Admission Details" gridCols="lg:grid-cols-4">
+            <FormField label="Admission ID" name="admission_id" value={formData.admission.admission_id} onChange={(e) => handleNestedChange('admission', e.target.name, e.target.value)} />
+            <FormField label="Admission Time" name="admission_time" type="datetime-local" value={formData.admission.admission_time} onChange={(e) => handleNestedChange('admission', e.target.name, e.target.value)} />
+            <FormField label="Location / Ward" name="location" value={formData.admission.location} onChange={(e) => handleNestedChange('admission', e.target.name, e.target.value)} />
+            <FormField label="Reason" name="reason" value={formData.admission.reason} onChange={(e) => handleNestedChange('admission', e.target.name, e.target.value)} />
+        </FormSection>
 
-        {/* Contact Info */}
-        <div className="flex flex-col lg:flex-row gap-4">
-          {['Address', 'Contact', 'Email'].map((field, i) => (
-            <div className="flex flex-col flex-1" key={i}>
-              {label(field)}
-              <input className="input input-bordered" value={formData[field.toLowerCase()]} onChange={e => handleFieldChange(field.toLowerCase(), e.target.value)} />
-            </div>
-          ))}
-        </div>
+        <FormSection title="Medication" gridCols="lg:grid-cols-5">
+            <FormField label="Med Name" name="name" value={formData.medications[0].name} onChange={(e) => handleArrayChange('medications', 0, e.target.name, e.target.value)} />
+            <FormField label="Dose" name="dose" value={formData.medications[0].dose} onChange={(e) => handleArrayChange('medications', 0, e.target.name, e.target.value)} />
+            <FormField label="Frequency" name="frequency" value={formData.medications[0].frequency} onChange={(e) => handleArrayChange('medications', 0, e.target.name, e.target.value)} />
+            <FormField label="Start Date" name="start_date" type="date" value={formData.medications[0].start_date} onChange={(e) => handleArrayChange('medications', 0, e.target.name, e.target.value)} />
+            <FormField label="End Date" name="end_date" type="date" value={formData.medications[0].end_date} onChange={(e) => handleArrayChange('medications', 0, e.target.name, e.target.value)} required={false}/>
+        </FormSection>
 
-        {/* Password */}
-        <div className="flex flex-col lg:flex-row gap-4">
-          <div className="flex flex-col flex-1">{label('Password')}
-            <input type="password" className="input input-bordered" placeholder="Leave empty for default: 123" value={formData.password} onChange={e => handleFieldChange('password', e.target.value)} />
-          </div>
+        <FormSection title="Initial Assessment">
+            <FormField label="Vital Sign Type" name="type" placeholder="e.g., Blood Pressure" value={formData.vitals[0].type} onChange={(e) => handleArrayChange('vitals', 0, e.target.name, e.target.value)} />
+            <FormField label="Vital Sign Value" name="value" placeholder="e.g., 120/80 mmHg" value={formData.vitals[0].value} onChange={(e) => handleArrayChange('vitals', 0, e.target.name, e.target.value)} />
+            <FormField label="Symptoms (comma-separated)" name="symptoms" value={formData.symptoms.join(', ')} onChange={(e) => setFormData(prev => ({...prev, symptoms: e.target.value.split(',').map(s=>s.trim())}))} className="md:col-span-2 lg:col-span-1" />
+            <FormField label="Procedures (comma-separated)" name="procedures" value={formData.procedures.join(', ')} onChange={(e) => setFormData(prev => ({...prev, procedures: e.target.value.split(',').map(p=>p.trim())}))} className="md:col-span-2 lg:col-span-3" />
+        </FormSection>
+        
+        <div className="w-full flex justify-center mt-8">
+            <button
+                onClick={handleSubmit}
+                className="btn btn-neutral btn-outline rounded-xl text-[rgb(0,149,218)] border-[rgb(0,149,218)] font-semibold bg-white border-2 px-12 py-2"
+            >
+                Add Patient
+            </button>
         </div>
-
-        {/* Bio Auth */}
-        <div className="flex flex-col lg:flex-row gap-4">
-          {['fingerPrint', 'retinaScan'].map((field, i) => (
-            <div className="flex flex-col flex-1" key={i}>
-              {label(field === 'fingerPrint' ? 'Finger Print Hash' : 'Retina Scan Hash')}
-              <input className="input input-bordered" value={formData[field]} onChange={e => handleFieldChange(field, e.target.value)} />
-            </div>
-          ))}
-          <div className="flex flex-col flex-1">{label('Emergency Contact(s)')}
-            <input className="input input-bordered" value={formData.emergencyContact[0]} onChange={e => handleFieldChange('emergencyContact', [e.target.value])} />
-          </div>
-        </div>
-
-        {/* Admission */}
-        <div className="border-t pt-3">
-          <h3 className="font-bold text-md mb-2">Admission</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {['admission_id', 'admission_time', 'location', 'reason'].map((field, idx) => (
-              <input key={idx} placeholder={field.replace('_', ' ').toUpperCase()} type={field === 'admission_time' ? 'datetime-local' : 'text'} className="input input-bordered" value={formData.admission[field]} onChange={e => handleAdmissionChange(field, e.target.value)} />
-            ))}
-          </div>
-        </div>
-
-        {/* Medications */}
-        <div className="border-t pt-3">
-          <h3 className="font-bold text-md mb-2">Medications</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            {['name', 'dose', 'frequency', 'start_date', 'end_date'].map((key, idx) => (
-              <input key={idx} placeholder={key.replace('_', ' ').toUpperCase()} type={key.includes('date') ? 'date' : 'text'} className="input input-bordered" value={formData.medications[0][key]} onChange={e => handleArrayChange('medications', 0, key, e.target.value)} />
-            ))}
-          </div>
-        </div>
-
-        {/* Vitals */}
-        <div className="border-t pt-3">
-          <h3 className="font-bold text-md mb-2">Vitals</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <input placeholder="Type (e.g. BP)" className="input input-bordered" value={formData.vitals[0].type} onChange={e => handleArrayChange('vitals', 0, 'type', e.target.value)} />
-            <input placeholder="Value" className="input input-bordered" value={formData.vitals[0].value} onChange={e => handleArrayChange('vitals', 0, 'value', e.target.value)} />
-          </div>
-        </div>
-
-        {/* Others */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          <input placeholder="Symptoms (comma separated)" className="input input-bordered" value={formData.symptoms.join(',')} onChange={e => handleFieldChange('symptoms', e.target.value.split(','))} />
-          <input placeholder="Procedures (comma separated)" className="input input-bordered" value={formData.procedures.join(',')} onChange={e => handleFieldChange('procedures', e.target.value.split(','))} />
-        </div>
-
-        {/* Notes */}
-        <div className="border-t pt-3">
-          <h3 className="font-bold text-md mb-2">Notes</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <input placeholder="Author" className="input input-bordered" value={formData.notes[0].author} onChange={e => handleArrayChange('notes', 0, 'author', e.target.value)} />
-            <input type="datetime-local" placeholder="Time" className="input input-bordered" value={formData.notes[0].timestamp} onChange={e => handleArrayChange('notes', 0, 'timestamp', e.target.value)} />
-            <textarea placeholder="Content" className="textarea textarea-bordered col-span-2" value={formData.notes[0].content} onChange={e => handleArrayChange('notes', 0, 'content', e.target.value)} />
-          </div>
-        </div>
-
-        {/* Submit */}
-        <div className="flex justify-center mt-4 mb-2">
-          <button className="btn btn-neutral btn-outline text-[rgb(0,149,218)] border-[rgb(0,149,218)] font-semibold bg-white border-2 rounded-xl px-6 py-2" onClick={handleSubmit}>
-            Submit
-          </button>
-        </div>
-
       </div>
     </div>
   );
