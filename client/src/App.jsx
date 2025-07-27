@@ -22,6 +22,9 @@ import ProtectedRoute from './components/ProtectedRoute';
 import AddHospital from './pages/admin/AddHospital';
 import UpdateHospital from './pages/admin/UpdateHospital.admin';
 import Removehospital from './pages/admin/Removehospital';
+import Adddoctor from './pages/admin/Adddoctor';
+import Removedoctor from './pages/admin/Removedoctor';
+import Updatedoctor from './pages/admin/Updatedoctor';
 function LayoutWrapper({ children }) {
   const location = useLocation()
     const [isLoggedIn, setIsLoggedIn] = useState(true);
