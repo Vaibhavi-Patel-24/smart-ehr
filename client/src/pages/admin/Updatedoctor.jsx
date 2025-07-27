@@ -8,9 +8,7 @@ const Updatedoctor = () => {
   const [formData, setFormData] = useState({
     name: '',
     specialization: '',
-    email: '',
     contact: '',
-    password: '',
     hospitalid:''
   });
 
@@ -75,10 +73,8 @@ const Updatedoctor = () => {
                 <div className="flex flex-col gap-4">
                   <input type="text" name="name" value={formData.name} onChange={handleChange} className="border p-2 rounded-md" placeholder="Doctor Name" />
                   <input type="text" name="specialization" value={formData.specialization} onChange={handleChange} className="border p-2 rounded-md" placeholder="Specialization" />
-                  <input type="email" name="email" value={formData.email} onChange={handleChange} className="border p-2 rounded-md" placeholder="Email" />
                   <input type="text" name="contact" value={formData.contact} onChange={handleChange} className="border p-2 rounded-md" placeholder="Contact" />
-                  <input type="text" name="address" value={formData.address} onChange={handleChange} className="border p-2 rounded-md" placeholder="Address" />
-                  <input type="password" name="password" value={formData.password} onChange={handleChange} className="border p-2 rounded-md" placeholder="New Password (optional)" />
+                  <input type="text" name="hospitalid" value={formData.hospitalid} onChange={handleChange} className="border p-2 rounded-md" placeholder="Hospitalid" />
 
                   <div className="flex flex-col sm:flex-row justify-between mt-4 gap-3">
                     <button className="w-full bg-[#0095DA] text-white px-6 py-2 rounded-lg">

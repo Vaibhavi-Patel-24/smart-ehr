@@ -5,8 +5,6 @@ const InputCardDoctor = () => {
   const [formData, setFormData] = useState({
     name: '',
     specialization: '',
-    email:'',
-    password:'',
     contact: '',
     hospitalId: '',
   });
@@ -16,8 +14,6 @@ const InputCardDoctor = () => {
 
     { label: 'Name', name: 'name', type: 'text' },
     { label: 'Specialization', name: 'specialization', type: 'text' },
-    { label: 'Email', name: 'email', type: 'email' },
-    { label: 'Password', name: 'password', type: 'password' },
     { label: 'Contact', name: 'contact', type: 'text' },
     { label: 'Hospital ID', name: 'hospitalId', type: 'text' },
   ];
