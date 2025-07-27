@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Footer({pos, isLoggedIn, onLogout }) {
+
   return (
     <div className={`flex justify-center items-center bg-black/20 text-white py-1 bottom-0 ${pos} left-0 w-full`}>
       
@@ -17,9 +18,10 @@ function Footer({pos, isLoggedIn, onLogout }) {
         >
           LOG OUT
         </button>
-      )}
+      )};
     </div>
   );
-}
+
+};
 
 export default Footer;

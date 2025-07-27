@@ -1,0 +1,2087 @@
+Fever,Cough,Fatigue,Headache,Muscle_Aches,Sore_Throat,Runny_Nose,Sneezing,Chills,Nausea,Vomiting,Diarrhea,Abdominal_Pain,Joint_Pain,Shortness_of_Breath,Rash,Eye_Redness,Chest_Pain,Intense_Localized_Pain,Swelling_Deformity,Numbness_Weakness_One_Sided,Difficulty_Speaking,Wheezing,Painful_Urination,Disease,Specialization
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,0,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+0,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,0,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+1,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Influenza,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_Cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Common_-cold,General Physician
+1,1,1,1,1,1,0,0,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,1,0,0,0,0,0,0,COVID-19,General Physician
+1,0,1,1,1,1,1,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,1,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,COVID-19,General Physician
+1,0,1,1,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+0,0,1,0,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,Gastroenteritis,Gastroenterologist / General Surgeon
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,0,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Strep_Throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Stripe_throat,ENT (Otolaryngologist) / General Physician
+1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,0,1,0,0,0,1,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+1,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,Pneumonia,General Physician
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Allergic_Rhinitis,Allergist / Immunologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Migraine,Neurologist
+1,0,1,1,1,0,0,0,1,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,1,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,Dengue_Fever,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,0,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Malaria,Infectious Disease Specialist / General Physician
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Urinary_Tract_infection,Urologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Conjunctivitis,Ophthalmologist
+0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Bone_Fracture,Orthopedic Surgeon
+0,1,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,Heart_Attack,Cardiologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologist
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologists
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologists
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologists
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologists
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologists
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologists
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologists
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologists
+0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Stroke,Neurologists
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,Appendicitis,Gastroenterologist / General Surgeon
+1,1,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,Kidney_Stones,Urologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,Asthma_Attack,Pulmonologist
