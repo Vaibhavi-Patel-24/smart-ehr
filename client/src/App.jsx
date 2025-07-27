@@ -58,12 +58,19 @@ function App() {
           <Route path="/admin/addpatient" element={<ProtectedRoute requiredRole="admin"><Addpatient /></ProtectedRoute>}/>
           <Route path="/admin/addmedical" element={<ProtectedRoute requiredRole="admin"><Addmedical /></ProtectedRoute>}/>
           <Route path="/admin/addhospital" element={<ProtectedRoute requiredRole="admin"><AddHospital /></ProtectedRoute>}/>
+          <Route path="/admin/adddoctor" element={<ProtectedRoute requiredRole="admin"><Adddoctor /></ProtectedRoute>}/>
+
           <Route path="/admin/updatepatient" element={<ProtectedRoute requiredRole="admin"><Updatepatient /></ProtectedRoute>}/>
           <Route path="/admin/updatehospital" element={<ProtectedRoute requiredRole="admin"><UpdateHospital /></ProtectedRoute>}/>
           <Route path="/admin/updatemedical" element={<ProtectedRoute requiredRole="admin"><Updatemedical/></ProtectedRoute>}/>
+          <Route path="/admin/updatedoctor" element={<ProtectedRoute requiredRole="admin"><Updatedoctor/></ProtectedRoute>}/>
+
           <Route path="/admin/removepatient" element={<ProtectedRoute requiredRole="admin"><Removepatient/></ProtectedRoute>}/>
           <Route path="/admin/removemedical" element={<ProtectedRoute requiredRole="admin"><Removemedical/></ProtectedRoute>}/>
           <Route path="/admin/removehospital" element={<ProtectedRoute requiredRole="admin"><Removehospital/></ProtectedRoute>}/>
+          <Route path="/admin/removedoctor" element={<ProtectedRoute requiredRole="admin"><Removedoctor/></ProtectedRoute>}/>
+
+
           <Route path="/medical/home" element={<ProtectedRoute requiredRole="medical"><Homepagemedical /></ProtectedRoute>}/>
           <Route path="/medical/ehr/:patientId" element={<ProtectedRoute requiredRole="medical"><Ehrmedical /></ProtectedRoute>} />
           <Route path="/patient/home" element={<ProtectedRoute requiredRole="patient"><HomepagePatient /></ProtectedRoute>}/>

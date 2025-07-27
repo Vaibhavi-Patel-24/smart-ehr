@@ -5,6 +5,7 @@ import { PiHospitalFill } from "react-icons/pi";
 import { Link } from 'react-router-dom';
 import { Menu } from 'lucide-react'; // Install this via npm if not already
 import right_arrow_black from '../../assets/right_arrow_black.png'
+import doctor_1 from '../../assets/doctor_1.png'
 const LeftPanel = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -25,7 +26,7 @@ const LeftPanel = () => {
 
       {/* Sidebar for large screens */}
       <div className="hidden lg:block">
-        <div className="lg:w-64 h-screen bg-[rgb(217,217,217)] text-white p-6 fixed top-0 left-0 shadow-lg space-y-6">
+        <div className="lg:w-64 h-screen bg-[rgb(217,217,217)] text-white p-6 fixed top-0 left-0 shadow-lg space-y-6 overflow-y-auto">
           <SidebarContent />
         </div>
       </div>
@@ -42,7 +43,7 @@ const LeftPanel = () => {
 
 
           {/* Sidebar Drawer */}
-          <div className="fixed top-0 left-0 w-64 h-screen bg-[rgb(217,217,217)] text-white p-6 shadow-lg z-40">
+          <div className="fixed top-0 left-0 w-64 h-screen bg-[rgb(217,217,217)] text-white p-6 shadow-lg z-40 overflow-y-auto">
             <button
               onClick={() => setIsOpen(false)}
               className="absolute bottom-8 right-4 text-black text-2xl font-bold"
@@ -60,7 +61,7 @@ const LeftPanel = () => {
 // Sidebar links (reusable)
 const SidebarContent = () => (
   <>
-    <ul className="space-y-3 pt-24">
+    <ul className="space-y-3 pt-20">
       <li className="flex items-center gap-2 text-black font-bold text-xl">
         <span>Patient</span>
         <img src={patient_profile} alt="Patient" className="w-6 h-6" />
@@ -105,6 +106,22 @@ const SidebarContent = () => (
       </Link>
       <Link to="/admin/removehospital">
         <li className="cursor-pointer text-[rgb(0,149,218)] font-semibold">Remove Hospital</li>
+      </Link>
+    </ul>
+
+    <ul className="space-y-3 mt-6 mb-10">
+      <li className="flex items-center gap-2 text-black font-bold text-xl">
+        <span>Doctore</span>
+        <img src={doctor_1} alt="Doctor" className="w-6 h-6" />
+      </li>
+      <Link to="/admin/adddoctor">
+        <li className="cursor-pointer text-[rgb(0,149,218)] font-semibold">Add Doctor</li>
+      </Link>
+      <Link to="/admin/updatedoctor">
+        <li className="cursor-pointer text-[rgb(0,149,218)] font-semibold">Manage Doctor</li>
+      </Link>
+      <Link to="/admin/removedoctor">
+        <li className="cursor-pointer text-[rgb(0,149,218)] font-semibold">Remove Doctor</li>
       </Link>
     </ul>
   </>
