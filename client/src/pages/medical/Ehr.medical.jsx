@@ -58,7 +58,7 @@ const handleSubmit = async (updatedFields) => {
   return (
     <div className="relative mt-10 mb-10 flex flex-col gap-8 items-center">
       <EhrContainer data={ehr} editMode={editMode} setEditMode={setEditMode} />
-      <Analysismedical />
+      <Analysismedical existingSymptoms={ehr?.symptoms || []} />
 
       <div className="flex flex-col sm:flex-row gap-3 w-full sm:justify-center">
         <button
