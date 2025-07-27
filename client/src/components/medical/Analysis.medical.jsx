@@ -111,9 +111,10 @@ function Analysismedical() {
 
     try {
       const response = await API.predictDisease({ symptoms });
-      console.log("response",response)
+      console.log("response.data", response.data);
+      console.log("Type of data:", typeof response.data);
       if (response.isSuccess) {
-        setAnalysisResult(response.data); // Should be an array of { disease, confidence }
+        setAnalysisResult([response.data]); // Should be an array of { disease, confidence }
       } else {
         console.error("Prediction failed:", response);
         alert("Prediction failed: " + response.msg);
@@ -162,16 +163,13 @@ function Analysismedical() {
         </button>
       </div>
 
-      {analysisResult && (
-        <div className="border border-[#00B2FF] rounded p-4 mt-2 text-black">
-          <p className="font-semibold text-[#00B2FF]">Prediction</p>
-          {analysisResult.map((res, index) => (
-            <p key={index}>
-              <span className="font-bold">{index + 1}. {res.disease}</span> — {res.confidence}%
-            </p>
-          ))}
-        </div>
-      )}
+     {analysisResult.map((res, index) => (
+      <div key={index}>
+        <p><span className="font-bold">Disease:</span> {res.disease}</p>
+        <p><span className="font-bold">Specialist:</span> {res.specialization}</p>
+      </div>
+    ))}
+
     </div>
   );
 }
