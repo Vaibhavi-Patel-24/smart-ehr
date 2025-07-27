@@ -163,7 +163,7 @@ const Updatepatient = () => {
         <div className="absolute inset-0 bg-black opacity-40" />
 
         <div className="absolute inset-0 flex">
-          <div className="hidden lg:block lg:w-60 lg:flex-shrink-0">
+          <div className="lg:w-60 lg:h-full lg:overflow-hidden">
             <LeftPanel />
           </div>
 

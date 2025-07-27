@@ -17,9 +17,10 @@ const Adddoctor = () => {
         <div className="absolute inset-0 flex">
           
           {/* Left Panel (Sidebar) */}
-          <div className="hidden lg:block lg:w-60 lg:flex-shrink-0">
+          <div className="lg:w-60 lg:h-full lg:overflow-hidden">
             <LeftPanel />
           </div>
+
           
           {/* Right Content Area Wrapper */}
           <div className="relative flex-1 h-full overflow-y-auto">
@@ -29,7 +30,7 @@ const Adddoctor = () => {
               
               {/* Content Container with a max-width */}
               <div className="w-full max-w-4xl">
-                <p className="text-white font-semibold text-2xl mb-4">Add New Medical Record</p>
+                <p className="text-white font-semibold text-2xl mb-4">Add New Doctor Record</p>
                 <InputCardDoctor />
               </div>
 

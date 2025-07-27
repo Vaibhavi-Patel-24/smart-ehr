@@ -18,7 +18,7 @@ const Addmedical = () => {
         <div className="absolute inset-0 flex">
           
           {/* Left Panel (Sidebar) */}
-          <div className="hidden lg:block lg:w-60 lg:flex-shrink-0">
+          <div className="lg:w-60 lg:h-full lg:overflow-hidden">
             <LeftPanel />
           </div>
           

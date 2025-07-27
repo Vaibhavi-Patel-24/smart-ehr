@@ -70,12 +70,12 @@ const InputCardHospital = () => {
   };
 
   return (
-    <div className="bg-[rgb(182,177,177)] w-2/3 h-2/3 lg:w-[720px] lg:h-[200px] rounded-xl opacity-80 flex flex-col justify-center items-center gap-4 overflow-y-scroll pl-3 pr-3 lg:pl-0 lg:pr-0 ">
+    <div className="bg-[rgb(182,177,177)] w-full max-w-4xl rounded-xl opacity-80 p-6 md:p-8 flex flex-col items-center gap-6 overflow-y-auto">
       {[
         ['Name', 'Address', 'Contact'],
         ['Email','Latitude','Longitude'],
       ].map((group, idx) => (
-        <div className="flex flex-col lg:flex-row gap-4" key={idx}>
+        <div className="w-full flex flex-col lg:flex-row gap-6" key={idx}>
           {group.map((placeholder, index) => (
             <input
               key={index}

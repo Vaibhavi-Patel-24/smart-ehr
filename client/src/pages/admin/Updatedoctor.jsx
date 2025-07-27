@@ -33,9 +33,10 @@ const Updatedoctor = () => {
 
       <div className="absolute inset-0 flex">
         {/* Sidebar */}
-        <div className="hidden lg:block lg:w-60">
+        <div className="lg:w-60 lg:h-full lg:overflow-hidden">
           <LeftPanel />
         </div>
+
 
         {/* Main Content */}
         <div className="relative flex-1 h-full overflow-y-auto pb-20">
