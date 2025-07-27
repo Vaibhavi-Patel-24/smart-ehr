@@ -7,6 +7,7 @@ import { addPatient, getAllPatients, getPatientById, getPatientByPatientId, upda
 import auth from '../middleware/auth.js';
 import { createHospital, deleteHospital, getAllHospitals, getHospitalById, updateHospital } from '../controllers/hospital.controller.js';
 import { sendAdminOTP,verifyAdminOTP } from '../controllers/admin.controller.js';
+import { createDoctor, getDoctorById } from '../controllers/doctor.controller.js';
 // import all the controllers here from controller folder
 
 const router = express.Router();
@@ -44,5 +45,9 @@ router.post('/admin/medical/verify-otp', verifyMedicalOTP);
 router.post('/admin/send-otp', sendAdminOTP);
 router.post('/admin/verify-otp', verifyAdminOTP);
 
+
+router.post('/admin/doctor/adddoctor',createDoctor)
+router.get('/doctor/getdoctorbymedical',getDoctorById)
+// router.patch('/admin/doctor/')
 
 export default router;

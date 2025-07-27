@@ -24,7 +24,7 @@ const Addpatient= () => {
         <div className="w-full px-4 md:px-4 lg:px-36">
             <p className="text-white font-semibold">New Patient</p>
         </div>            
-        <InputCard/> 
+        <InputCard/>
         </div>
 
      </div>
