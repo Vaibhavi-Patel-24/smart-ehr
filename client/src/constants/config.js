@@ -21,6 +21,15 @@ export const SERVICE_URLS={
   //   method: "POST",
   // },
     
+    addDoctor: { url: '/admin/doctor/adddoctor',method: 'POST'},
+    deleteDoctor: { url: '/admin/doctor/:doctorid',method: 'PATCH'},
+    getDoctor: { url: '/doctor/:doctorid',method: 'GET'},
+    getDoctorsByHospitalAndSpecialization: {
+  url: '/doctors',   // No :param here because it uses query parameters
+  method: 'GET',
+},
+
+
     addHospital: { url: '/hospital/addhospital',method: 'POST'},
     getAllHospital: { url: '/hospital/allhospitals',method: 'GET'},
     getHospital: { url: '/admin/hospital/:hospitalId',method: 'GET'},

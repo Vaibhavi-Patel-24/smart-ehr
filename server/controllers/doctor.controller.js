@@ -53,11 +53,31 @@ export const getAllDoctors = async (req, res) => {
   }
 };
 
+// Get doctors by hospitalId and specialization
+export const getDoctorsByHospitalAndSpecialization = async (req, res) => {
+  const { hospitalId, specialization } = req.query;
+
+  try {
+    console.log('fetching the doctor')
+    const doctors = await Doctor.find({
+      hospitalId,
+      specialization: { $regex: new RegExp(specialization, 'i') } // Case-insensitive match
+    });
+    console.log(doctors)
+    console.log(`doctor found ${doctors}`)
+    res.status(200).json(doctors);
+  } catch (error) {
+    console.log('doctor not found')
+    res.status(500).json({ message: 'Error fetching doctors', error: error.message });
+  }
+};
+
+
 // Get Doctor by doctorId
 export const getDoctorById = async (req, res) => {
   try {
     const { doctorId } = req.params;
-    const doctor = await Doctor.findOne({ doctorId }).populate('hospitalId');
+    const doctor = await Doctor.findOne({ doctorId });
     if (!doctor) return res.status(404).json({ message: 'Doctor not found' });
 
     res.status(200).json({ doctor });

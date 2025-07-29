@@ -18,7 +18,7 @@ function Footer({pos, isLoggedIn, onLogout }) {
         >
           LOG OUT
         </button>
-      )};
+      )}
     </div>
   );
 

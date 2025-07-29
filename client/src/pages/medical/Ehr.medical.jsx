@@ -8,6 +8,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 function Ehrmedical() {
   const [ehr, setEhr] = useState({});
   const [editMode, setEditMode] = useState(false);
+  const [matchedDoctor, setMatchedDoctor] = useState(null);
   const { patientId } = useParams();
   const navigate = useNavigate();
 
@@ -27,19 +28,18 @@ function Ehrmedical() {
     fetchEhr();
   }, [patientId]);
 
-const handleSubmit = async (updatedFields) => {
-  try {
-    console.log('✅ Forwarding data to API...');
-    const response = await API.updateByMedical({ patientId, ...updatedFields });
-    setEhr(response.data?.patient);
-    setEditMode(false);
-    alert("EHR updated successfully.");
-  } catch (error) {
-    console.error("Update failed:", error.response?.data || error.message);
-    alert("Failed to update EHR.");
-  }
-};
-
+  const handleSubmit = async (updatedFields) => {
+    try {
+      console.log('✅ Forwarding data to API...');
+      const response = await API.updateByMedical({ patientId, ...updatedFields });
+      setEhr(response.data?.patient);
+      setEditMode(false);
+      alert("EHR updated successfully.");
+    } catch (error) {
+      console.error("Update failed:", error.response?.data || error.message);
+      alert("Failed to update EHR.");
+    }
+  };
 
   // Listen for payload from container
   useEffect(() => {
@@ -55,10 +55,52 @@ const handleSubmit = async (updatedFields) => {
     return () => window.removeEventListener('ehr-submit-payload', listener);
   }, []);
 
+  // Fetch doctor by specialization and hospitalId
+  const findDoctorBySpecialization = async (specialization) => {
+    const hospitalId = sessionStorage.getItem('hospitalId');
+    if (!hospitalId || !specialization) return;
+
+    try {
+      const response = await API.getDoctorsByHospitalAndSpecialization(hospitalId, specialization);
+      console.log('called doctor finding')
+      if (response?.data?.length > 0) {
+        setMatchedDoctor(response.data[0]);
+        console.log("✅ Matched Doctor:", response.data[0]);
+      } else {
+        console.warn("⚠️ No doctor found for this specialization.");
+        setMatchedDoctor(null);
+      }
+    } catch (err) {
+      console.error("❌ Failed to fetch doctor:", err.response?.data || err.message);
+      setMatchedDoctor(null);
+    }
+  };
+
+  // Listen for predicted specialization
+  useEffect(() => {
+    const handleSpecializationPrediction = (e) => {
+      const specialization = e.detail?.specialization;
+      if (specialization) {
+        console.log('Predicted Specialization:', specialization);
+        findDoctorBySpecialization(specialization);
+      }
+    };
+
+    window.addEventListener('predicted-specialization', handleSpecializationPrediction);
+    return () => window.removeEventListener('predicted-specialization', handleSpecializationPrediction);
+  }, []);
+
   return (
     <div className="relative mt-10 mb-10 flex flex-col gap-8 items-center">
       <EhrContainer data={ehr} editMode={editMode} setEditMode={setEditMode} />
       <Analysismedical existingSymptoms={ehr?.symptoms || []} />
+
+      {/* Show matched doctor */}
+      {matchedDoctor && (
+        <div className="text-center mt-4 text-green-700 font-semibold text-base sm:text-lg">
+          Matched Doctor: {matchedDoctor.name} ({matchedDoctor.specialization})
+        </div>
+      )}
 
       <div className="flex flex-col sm:flex-row gap-3 w-full sm:justify-center">
         <button

@@ -11,10 +11,9 @@ const InputCardDoctor = () => {
 
   // Define the fields for the form
   const fields = [
-
     { label: 'Name', name: 'name', type: 'text' },
     { label: 'Specialization', name: 'specialization', type: 'text' },
-    { label: 'Contact', name: 'contact', type: 'text' },
+    { label: 'Contact', name: 'contact', type: 'tel' }, // Changed type to 'tel' for better semantics
     { label: 'Hospital ID', name: 'hospitalId', type: 'text' },
   ];
 
@@ -27,12 +26,21 @@ const InputCardDoctor = () => {
   };
 
   const handleSubmit = async () => {
+    // --- Frontend Validation ---
     for (const field of fields) {
       if (!formData[field.name]) {
         alert(`Please fill out the ${field.label} field.`);
         return;
       }
     }
+    
+    // Specific validation for the contact number to match the backend schema
+    const contactRegex = /^[0-9]{10}$/;
+    if (!contactRegex.test(formData.contact)) {
+        alert('Please enter a valid 10-digit contact number.');
+        return;
+    }
+    // --- End of Validation ---
 
     try {
       const response = await API.addDoctor(formData); // Call correct API
@@ -40,6 +48,7 @@ const InputCardDoctor = () => {
 
       if (response?.isSuccess) {
         alert('Doctor added successfully');
+        // Reset form after successful submission
         setFormData({
           name: '',
           specialization: '',
@@ -56,8 +65,11 @@ const InputCardDoctor = () => {
   };
 
   return (
+    // Main container with consistent styling
     <div className="bg-[rgb(182,177,177)] w-full max-w-4xl rounded-xl opacity-80 p-6 md:p-8 flex flex-col items-center gap-6">
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-6">
+      
+      {/* A 2x2 grid is more balanced for 4 items */}
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
         {fields.map((field) => (
           <input
             key={field.name}

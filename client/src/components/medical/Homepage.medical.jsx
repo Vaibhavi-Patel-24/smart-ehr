@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import QrScanner from 'qr-scanner';
+// 👇 1. Import the library
+import toast, { Toaster } from 'react-hot-toast';
 
 function Homepagemedical() {
   const [patientId, setPatientId] = useState('');
@@ -14,38 +16,48 @@ function Homepagemedical() {
     if (patientId.trim() !== '') {
       navigate(`/medical/ehr/${patientId.trim()}`);
     } else {
-      alert("Please enter a valid Patient ID");
+      // You can also use toast for this error
+      toast.error("Please enter a valid Patient ID");
     }
+  };
+
+  // 👇 2. Update the function to use toast.error()
+  const handleFingerprintScan = () => {
+    toast.error("Fingerprint scanner not recognized or something went wrong. Please use Patient ID or QR scan instead.", {
+      duration: 4000, // Make the toast last a bit longer (4 seconds)
+    });
   };
 
   const handleImageUpload = async (event) => {
     const file = event.target.files[0];
     if (!file) return;
     try {
-      const result = await QrScanner.scanImage(file);
-      if (result) {
-        navigate(`/medical/ehr/${result}`);
+      const result = await QrScanner.scanImage(file, { returnDetailedScanResult: true });
+      if (result?.data) {
+        navigate(`/medical/ehr/${result.data}`);
       } else {
-        alert("No valid QR code found in the image.");
+        toast.error("No valid QR code found in the image.");
       }
     } catch (err) {
-      alert("Failed to read QR code from image.");
+      toast.error("Failed to read QR code from image.");
       console.error(err);
     }
   };
-
-  const startCameraScanner = async () => {
+  
+  const startCameraScanner = () => {
+    // ... (rest of the function is the same)
     setCameraOpen(true);
     scannerRef.current = new QrScanner(
       videoRef.current,
       (result) => {
-        scannerRef.current.stop();
-        setCameraOpen(false);
-        navigate(`/medical/ehr/${result}`);
+        if (result?.data) {
+          scannerRef.current.stop();
+          setCameraOpen(false);
+          navigate(`/medical/ehr/${result.data}`);
+        }
       },
       {
         highlightScanRegion: true,
-        returnDetailedScanResult: true,
       }
     );
     scannerRef.current.start();
@@ -58,7 +70,10 @@ function Homepagemedical() {
 
   return (
     <div className="relative h-screen w-full flex justify-center items-center overflow-hidden">
-      {/* Decorative Images */}
+      {/* 👇 3. Add the Toaster component to render the notifications */}
+      <Toaster position="top-center" reverseOrder={false} />
+
+      {/* Decorative Images (omitted for brevity) */}
       <img src="/drimage.svg" className="absolute top-0 left-0 w-[160px] sm:w-[140px] md:w-[200px] lg:w-[300px] z-0" alt="Doctor Left" />
       <img src="/nurseimage.svg" className="absolute bottom-0 left-0 w-[160px] sm:w-[140px] md:w-[200px] lg:w-[300px] z-0" alt="Nurse Bottom Left" />
       <img src="/drimage2.svg" className="absolute bottom-0 right-0 w-[160px] sm:w-[140px] md:w-[200px] lg:w-[300px] z-0" alt="Doctor Bottom Right" />
@@ -74,26 +89,21 @@ function Homepagemedical() {
             className="p-3 w-full sm:w-[80%] bg-[#F8FDFF] border rounded-[15px] border-[#0095DA] outline-none text-sm sm:text-base"
             placeholder="Enter Patient ID"
           />
-
           <button
             onClick={handleSubmit}
             className="btn btn-outline text-sm sm:text-base text-[#0095DA] outline-[#69A4DC] rounded-[15px] px-6 py-2 mt-2"
           >
             View EHR
           </button>
-
-          <div className="text-[#0095DA] text-center text-sm">
-            <p>OR</p>
-          </div>
-
-          {/* Scan Buttons */}
+          <div className="text-[#0095DA] text-center text-sm"><p>OR</p></div>
           <div className="flex flex-col gap-3 w-full items-center">
-            {/* 👇 Scan Fingerprint */}
-            <button className="btn btn-outline text-sm sm:text-base text-[#0095DA] outline-[#69A4DC] rounded-[15px] px-4 py-2">
+            {/* The button remains the same, it just calls the updated function */}
+            <button
+              onClick={handleFingerprintScan}
+              className="btn btn-outline text-sm sm:text-base text-[#0095DA] outline-[#69A4DC] rounded-[15px] px-4 py-2"
+            >
               Scan Fingerprint
             </button>
-
-            {/* 👇 QR Options */}
             <div className="flex flex-col sm:flex-row gap-3 sm:justify-center w-full">
               <button
                 className="btn btn-outline text-sm sm:text-base text-[#0095DA] outline-[#69A4DC] rounded-[15px] px-4 py-2"
@@ -119,14 +129,11 @@ function Homepagemedical() {
         </div>
       </div>
 
-      {/* QR Camera Modal */}
+      {/* QR Camera Modal (omitted for brevity) */}
       {cameraOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center z-50">
           <video ref={videoRef} className="w-[300px] h-[300px] rounded" />
-          <button
-            onClick={stopCameraScanner}
-            className="mt-4 bg-red-600 text-white px-6 py-2 rounded"
-          >
+          <button onClick={stopCameraScanner} className="mt-4 bg-red-600 text-white px-6 py-2 rounded">
             Cancel
           </button>
         </div>
