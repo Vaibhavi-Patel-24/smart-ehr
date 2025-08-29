@@ -37,17 +37,28 @@ function Analysismedical({ existingSymptoms = [] }) {
     }
 
     try {
+      console.log(`predicting`)
       const response = await API.predictDisease({ symptoms: combinedSymptoms });
-
+      
       if (response.isSuccess) {
+        console.log(`predicted`)
         const result = response.data;
         setAnalysisResult([result]);
-
+        
         // ✅ Fetch doctor by specialization
         const hospitalId = sessionStorage.getItem('hospitalId');
+        // console.log(hospitalId || 'error getting hid')
+        // console.log(result.specialization)
         if (hospitalId && result.specialization) {
-          const doctorRes = await API.getDoctorsByHospitalAndSpecialization(hospitalId, result.specialization);
+          // console.log(`getting doctor`)
+          const doctorRes = await API.getDoctorsByHospitalAndSpecialization({
+              hospitalId: hospitalId,
+              specialization: result.specialization
+          });         
+          // console.log(`got doctor`)
+          // console.log(doctorRes.data)
           if (doctorRes.data?.length > 0) {
+            console.log(doctorRes.data[0].name)
             setDoctorName(doctorRes.data[0].name);
           } else {
             setDoctorName('No matching doctor found');

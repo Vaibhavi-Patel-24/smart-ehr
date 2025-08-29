@@ -86,6 +86,7 @@ const convertToFormData = (data) => {
 
 const API = {};
 
+// Corrected api.js loop
 for (const [key, value] of Object.entries(SERVICE_URLS)) {
   API[key] = async (
     body = {},
@@ -93,17 +94,19 @@ for (const [key, value] of Object.entries(SERVICE_URLS)) {
     showDownloadProgress = () => {}
   ) => {
     try {
-      // 🔁 Replace :params in URL dynamically based on body
+      // 🔁 Correctly extract URL params first
       let url = value.url;
-      const paramMatches = url.match(/:\w+/g); // e.g., [":id", ":patientId"]
+      const paramMatches = url.match(/:\w+/g);
+      let queryParams = { ...body }; // Copy all data to be potential query params
 
       if (paramMatches) {
         paramMatches.forEach((param) => {
-          const key = param.substring(1); // remove ":" to get "id" or "patientId"
-          if (body[key]) {
-            url = url.replace(param, body[key]);
+          const paramKey = param.substring(1);
+          if (body[paramKey]) {
+            url = url.replace(param, body[paramKey]);
+            delete queryParams[paramKey]; // Remove URL param from query params
           } else {
-            throw new Error(`Missing required URL param: ${key}`);
+            throw new Error(`Missing required URL param: ${paramKey}`);
           }
         });
       }
@@ -111,10 +114,8 @@ for (const [key, value] of Object.entries(SERVICE_URLS)) {
       const config = {
         method: value.method,
         url: url,
-        data:
-          value.method === "GET" || value.method === "DELETE"
-            ? undefined
-            : body,
+        data: value.method === "GET" || value.method === "DELETE" ? undefined : queryParams,
+        params: value.method === "GET" ? queryParams : undefined, // This is the fix
         headers: {
           "Content-Type":
             value.method === "POST" && body instanceof FormData
@@ -122,22 +123,8 @@ for (const [key, value] of Object.entries(SERVICE_URLS)) {
               : "application/json",
         },
         responseType: value.responseType,
-        onUploadProgress: function (progressEvent) {
-          if (typeof showUploadProgress === "function") {
-            let percentageCompleted = Math.round(
-              (progressEvent.loaded * 100) / progressEvent.total
-            );
-            showUploadProgress(percentageCompleted);
-          }
-        },
-        onDownloadProgress: function (progressEvent) {
-          if (typeof showDownloadProgress === "function") {
-            let percentageCompleted = Math.round(
-              (progressEvent.loaded * 100) / progressEvent.total
-            );
-            showDownloadProgress(percentageCompleted);
-          }
-        },
+        onUploadProgress: showUploadProgress,
+        onDownloadProgress: showDownloadProgress,
       };
 
       const response = await axiosInstance(config);

@@ -30,7 +30,8 @@ function LoginCommon() {
       const token = response.data.token;
       const medicalId = response.data.user.medicalId; // assuming backend sends full user under "medical"
       const hospitalId = response.data.user.hospitalId; // assuming backend sends full user under "medical"
-      console.log(medicalId)
+      // console.log(medicalId)
+      // console.log(hospitalId)
       if (medicalId) {
         sessionStorage.setItem("medicalId", medicalId);
         sessionStorage.setItem("hospitalId", hospitalId);

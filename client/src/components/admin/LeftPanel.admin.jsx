@@ -111,7 +111,7 @@ const SidebarContent = () => (
 
     <ul className="space-y-3 mt-6 mb-10">
       <li className="flex items-center gap-2 text-black font-bold text-xl">
-        <span>Doctore</span>
+        <span>Doctor</span>
         <img src={doctor_1} alt="Doctor" className="w-6 h-6" />
       </li>
       <Link to="/admin/adddoctor">

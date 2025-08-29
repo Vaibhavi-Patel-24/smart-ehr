@@ -54,24 +54,41 @@ export const getAllDoctors = async (req, res) => {
 };
 
 // Get doctors by hospitalId and specialization
+// export const getDoctorsByHospitalAndSpecialization = async (req, res) => {
+//   const { hospitalId, specialization } = req.query;
+//   console.log(req.query)
+//   console.log(hospitalId)
+//   console.log(specialization)
+//   try {
+//     console.log('fetching the doctor')
+//     const doctors = await Doctor.find({
+//       hospitalId,
+//       specialization 
+//     });
+//     console.log(doctors)
+//     console.log(`doctor found ${doctors}`)
+//     res.status(200).json(doctors);
+//   } catch (error) {
+//     console.log('doctor not found')
+//     res.status(500).json({ message: 'Error fetching doctors', error: error.message });
+//   }
+// };
+
 export const getDoctorsByHospitalAndSpecialization = async (req, res) => {
-  const { hospitalId, specialization } = req.query;
-
-  try {
-    console.log('fetching the doctor')
-    const doctors = await Doctor.find({
-      hospitalId,
-      specialization: { $regex: new RegExp(specialization, 'i') } // Case-insensitive match
+ const { hospitalId, specialization } = req.params; 
+    // console.log(hospitalId)
+    // console.log(specialization)
+ try {
+     const doctors = await Doctor.find({
+     hospitalId,
+     specialization: specialization 
     });
-    console.log(doctors)
-    console.log(`doctor found ${doctors}`)
-    res.status(200).json(doctors);
-  } catch (error) {
-    console.log('doctor not found')
-    res.status(500).json({ message: 'Error fetching doctors', error: error.message });
-  }
+    // console.log(doctors)
+     res.status(200).json(doctors);
+ } catch (error) {
+     res.status(500).json({ message: 'Error fetching doctors', error: error.message });
+ }
 };
-
 
 // Get Doctor by doctorId
 export const getDoctorById = async (req, res) => {

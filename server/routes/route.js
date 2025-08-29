@@ -47,7 +47,7 @@ router.post('/admin/verify-otp', verifyAdminOTP);
 
 import { getDoctorsByHospitalAndSpecialization } from '../controllers/doctor.controller.js';
 
-router.get('/doctors', getDoctorsByHospitalAndSpecialization);
+router.get('/doctors/:hospitalId/:specialization', getDoctorsByHospitalAndSpecialization);
 
 router.delete('/admin/doctor/:doctorid', auth, deleteDoctor);
 router.post('/admin/doctor/adddoctor',createDoctor)
