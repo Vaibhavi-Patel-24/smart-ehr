@@ -22,6 +22,4 @@ This platform allows emergency responders to quickly access patients' health rec
 4. Real-time location sharing helps coordinate emergency response.  
 5. AI engine provides critical recommendations based on patient history.  
 
-## Contact
-**Owner:** Vaibhavi Patel  
-**GitHub:** [Vaibhavi-Patel-24](https://github.com/Vaibhavi-Patel-24)
+
